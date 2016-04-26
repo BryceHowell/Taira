@@ -1,0 +1,56 @@
+0 - 0 alpha
+d- dark green
+B - dark brown
+b - lighter brown
+l - light green
+m - medium green
+g - green
+o - olive green
+
+000m000
+00ggg00
+00ooo00
+0mmmmm0
+00ddd00
+0mmmmm0
+lllllll
+mmmmmmm
+0ddddd0
+lllllll
+00BBB00
+00bbb00
+
+m - medium cyan
+x - between m and l cyan
+l- light cyan?
+d -dark cyan?
+e  - evergreen
+t- tan?
+000l0000
+000ll000
+00xx0000
+00mmmm00
+0mmmm000
+00xxxxx0
+0lllll00
+00lllll0
+0xxxxx00
+dddddddd
+0dddddd0
+eeeeeeee
+000t0000
+
+this tree probably does not match original
+color to taste
+
+
+
+
+
+
+
+
+
+
+
+

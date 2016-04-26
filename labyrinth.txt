@@ -1,0 +1,1453 @@
+<room name="bluemaze0" group="labyrinth" bgcolor="GRY">
+
+<exit direction="north" room="bluemaze1">
+<exit direction="west" room="bluemaze3">
+<exit direction="east" room="bluemaze3">
+<exit direction="south" room="left">
+
+
+<brush x="0" y="0" z="0" width="32" height="16"  color="BLU"/>
+<brush x="72" y="0" z="0" width="16" height="16"  color="BLU"/>
+<brush x="128" y="0" z="0" width="32" height="16"  color="BLU"/>
+
+<brush x="40" y="0" z="0" width="8" height="112"  color="BLU"/>
+<brush x="56" y="0" z="0" width="8" height="48"  color="BLU"/>
+<brush x="96" y="0" z="0" width="8" height="48"  color="BLU"/>
+<brush x="112" y="0" z="0" width="8" height="112"  color="BLU"/>
+
+<brush x="24" y="16" z="0" width="8" height="96"  color="BLU"/>
+<brush x="128" y="16" z="0" width="8" height="96"  color="BLU"/>
+
+<brush x="0" y="48" z="0" width="16" height="32"  color="BLU"/>
+<brush x="56" y="48" z="0" width="48" height="32"  color="BLU"/>
+<brush x="144" y="48" z="0" width="16" height="32"  color="BLU"/>
+
+<brush x="0" y="112" z="0" width="32" height="32"  color="BLU"/>
+<brush x="40" y="112" z="0" width="80" height="32"  color="BLU"/>
+<brush x="128" y="112" z="0" width="32" height="32"  color="BLU"/>
+
+<brush x="0" y="176" z="0" width="64" height="16"  color="BLU"/>
+<brush x="96" y="176" z="0" width="64" height="16"  color="BLU"/>
+</room>
+
+<room name="bluemaze1" group="labyrinth" bgcolor="GRY">
+
+<exit direction="south" room="bluemaze0"/>
+<exit direction="west" room="bluemaze4"/>
+<exit direction="east" room="bluemaze2"/>
+
+<brush x="0" y="0" z="0" width="160" height="16"  color="BLU"/>
+
+<brush x="0" y="48" z="0" width="40" height="32"  color="BLU"/>
+<brush x="48" y="48" z="0" width="64" height="32"  color="BLU"/>
+<brush x="120" y="48" z="0" width="40" height="32"  color="BLU"/>
+
+<brush x="0" y="80" z="0" width="16" height="64"  color="BLU">
+<brush x="72" y="80" z="0" width="16" height="112"  color="BLU">
+<brush x="144" y="80" z="0" width="16" height="64"  color="BLU">
+
+<brush x="24" y="112" z="0" width="40" height="32"  color="BLU">
+<brush x="96" y="112" z="0" width="40" height="32"  color="BLU">
+
+<brush x="24" y="144" z="0" width="8" height="48"  color="BLU">
+<brush x="56" y="144" z="0" width="8" height="48"  color="BLU">
+<brush x="96" y="144" z="0" width="8" height="48"  color="BLU">
+<brush x="128" y="144" z="0" width="8" height="48"  color="BLU">
+
+<brush x="0" y="176" z="0" width="24" height="16"  color="BLU">
+<brush x="40" y="176" z="0" width="8" height="16"  color="BLU">
+<brush x="112" y="176" z="0" width="8" height="16"  color="BLU">
+<brush x="136" y="176" z="0" width="24" height="16"  color="BLU">
+
+</room>
+
+<room name="bluemaze2" group="labyrinth" bgcolor="GRY">
+
+<exit direction="north" room="bluemaze3">
+<exit direction="west" room="bluemaze1">
+<exit direction="east" room="bluemaze4">
+
+<brush x="0" y="0" z="0" width="24" height="16"  color="BLU">
+<brush x="24" y="0" z="0" width="8" height="48"  color="BLU">
+<brush x="40" y="0" z="0" width="8" height="16"  color="BLU">
+<brush x="56" y="0" z="0" width="8" height="48"  color="BLU">
+<brush x="96" y="0" z="0" width="8" height="48"  color="BLU">
+<brush x="112" y="0" z="0" width="8" height="16"  color="BLU">
+<brush x="128" y="0" z="0" width="8" height="48"  color="BLU">
+<brush x="136" y="0" z="0" width="24" height="16"  color="BLU">
+
+<brush x="0" y="48" z="0" width="16" height="64"  color="BLU">
+<brush x="24" y="48" z="0" width="40" height="32"  color="BLU">
+<brush x="96" y="48" z="0" width="40" height="32"  color="BLU">
+<brush x="144" y="48" z="0" width="16" height="64"  color="BLU">
+
+<brush x="0" y="112" z="0" width="32" height="32"  color="BLU">
+<brush x="128" y="112" z="0" width="32" height="32"  color="BLU">
+
+<brush x="24" y="144" z="0" width="8" height="32"  color="BLU">
+<brush x="128" y="144" z="0" width="8" height="32"  color="BLU">
+
+<brush x="0" y="176" z="0" width="160" height="16"  color="BLU">
+
+</room>
+
+<room name="bluemaze3" group="labyrinth" bgcolor="GRY">
+
+<exit direction="north" room="bluemaze4">
+<exit direction="south" room="bluemaze2">
+<exit direction="west" room="bluemaze0">
+<exit direction="east" room="bluemaze0">
+
+<brush x="0" y="0" z="0" width="16" height="16"  color="BLU">
+<brush x="24" y="0" z="0" width="8" height="48"  color="BLU">
+<brush x="40" y="0" z="0" width="16" height="16"  color="BLU">
+<brush x="56" y="0" z="0" width="16" height="144"  color="BLU">
+<brush x="88" y="0" z="0" width="16" height="144"  color="BLU">
+<brush x="104" y="0" z="0" width="16" height="16"  color="BLU">
+<brush x="128" y="0" z="0" width="8" height="48"  color="BLU">
+<brush x="144" y="0" z="0" width="16" height="16"  color="BLU">
+
+
+<brush x="0" y="48" z="0" width="48" height="32"  color="BLU">
+<brush x="112" y="48" z="0" width="48" height="32"  color="BLU">
+
+<brush x="40" y="80" z="0" width="8" height="112"  color="BLU">
+<brush x="112" y="80" z="0" width="8" height="112"  color="BLU">
+
+<brush x="0" y="112" z="0" width="16" height="32"  color="BLU">
+<brush x="24" y="112" z="0" width="8" height="64"  color="BLU">
+<brush x="128" y="112" z="0" width="8" height="64"  color="BLU">
+<brush x="144" y="112" z="0" width="16" height="32"  color="BLU">
+
+<brush x="56" y="144" z="0" width="8" height="48"  color="BLU">
+<brush x="96" y="144" z="0" width="8" height="48"  color="BLU">
+
+<brush x="0" y="176" z="0" width="32" height="16"  color="BLU">
+<brush x="128" y="176" z="0" width="32" height="16"  color="BLU">
+
+</room>
+
+<room name="bluemaze4" group="labyrinth" bgcolor="GRY">
+
+<exit direction="north" room="greencastle">
+<exit direction="south" room="bluemaze3">
+<exit direction="west" room="bluemaze2">
+<exit direction="east" room="bluemaze1">
+
+<brush x="0" y="0" z="0" width="64" height="16"  color="BLU">
+<brush x="96" y="0" z="0" width="64" height="16"  color="BLU">
+
+<brush x="32" y="16" z="0" width="8" height="96"  color="BLU">
+<brush x="56" y="16" z="0" width="8" height="32"  color="BLU">
+<brush x="96" y="16" z="0" width="8" height="32"  color="BLU">
+<brush x="120" y="16" z="0" width="8" height="96"  color="BLU">
+
+<brush x="0" y="48" z="0" width="16" height="64"  color="BLU">
+<brush x="56" y="48" z="0" width="16" height="32"  color="BLU">
+<brush x="88" y="48" z="0" width="16" height="32"  color="BLU">
+<brush x="144" y="48" z="0" width="16" height="64"  color="BLU">
+
+<brush x="0" y="112" z="0" width="72" height="32"  color="BLU">
+<brush x="88" y="112" z="0" width="72" height="32"  color="BLU">
+
+<brush x="24" y="144" z="0" width="8" height="48"  color="BLU">
+<brush x="64" y="144" z="0" width="8" height="32"  color="BLU">
+<brush x="88" y="144" z="0" width="8" height="32"  color="BLU">
+<brush x="128" y="144" z="0" width="8" height="48"  color="BLU">
+
+<brush x="0" y="176" z="0" width="16" height="16"  color="BLU">
+<brush x="40" y="176" z="0" width="32" height="16"  color="BLU">
+<brush x="88" y="176" z="0" width="32" height="16"  color="BLU">
+<brush x="144" y="176" z="0" width="16" height="16"  color="BLU">
+
+</room>
+
+<room name="redmaze0" group="red_labyrinth" bgcolor="GRY">
+
+<exit direction="north" room="redmaze1">
+<exit direction="south" room="insidegreen">
+<exit direction="west" room="redmaze3">
+<exit direction="east" room="redmaze3">
+
+<brush x="0" y="0" z="0" width="16" height="48"  color="DOR"/>
+<brush x="144" y="0" z="0" width="16" height="48"  color="DOR"/>
+<brush x="24" y="0" z="0" width="24" height="16"  color="DOR"/>
+<brush x="112" y="0" z="0" width="24" height="16"  color="DOR"/>
+<brush x="56" y="0" z="0" width="8" height="48"  color="DOR"/>
+<brush x="96" y="0" z="0" width="8" height="48"  color="DOR"/>
+<brush x="0" y="48" z="0" width="64" height="32"  color="DOR"/>
+<brush x="96" y="48" z="0" width="64" height="32"  color="DOR"/>
+<brush x="24" y="80" z="0" width="8" height="96"  color="DOR"/>
+<brush x="128" y="80" z="0" width="8" height="96"  color="DOR"/>
+<brush x="0" y="112" z="0" width="16" height="32"  color="DOR"/>
+<brush x="144" y="112" z="0" width="16" height="32"  color="DOR"/>
+<brush x="0" y="176" z="0" width="64" height="16"  color="DOR"/>
+<brush x="96" y="176" z="0" width="64" height="16"  color="DOR"/>
+</room>
+
+<room name="redmaze1" group="red_labyrinth" bgcolor="GRY">
+
+<exit direction="south" room="redmaze0">
+<exit direction="west" room="redmaze2">
+<exit direction="east" room="redmaze2">
+
+<brush x="0" y="0" z="0" width="160" height="16"  color="DOR"/>
+<brush x="72" y="16" z="0" width="16" height="96"  color="DOR"/>
+<brush x="0" y="48" z="0" width="64" height="32"  color="DOR"/>
+<brush x="96" y="48" z="0" width="64" height="32"  color="DOR"/>
+<brush x="56" y="80" z="0" width="8" height="32"  color="DOR"/>
+<brush x="96" y="80" z="0" width="8" height="32"  color="DOR"/>
+<brush x="0" y="112" z="0" width="16" height="80"  color="DOR"/>
+<brush x="24" y="112" z="0" width="8" height="64"  color="DOR"/>
+<brush x="40" y="112" z="0" width="80" height="32"  color="DOR"/>
+<brush x="128" y="112" z="0" width="8" height="64"  color="DOR"/>
+<brush x="144" y="112" z="0" width="16" height="80"  color="DOR"/>
+<brush x="40" y="144" z="0" width="8" height="32"  color="DOR"/>
+<brush x="112" y="144" z="0" width="8" height="32"  color="DOR"/>
+<brush x="24" y="176" z="0" width="24" height="16"  color="DOR"/>
+<brush x="56" y="176" z="0" width="8" height="16"  color="DOR"/>
+<brush x="96" y="176" z="0" width="8" height="16"  color="DOR"/>
+<brush x="112" y="176" z="0" width="24" height="16"  color="DOR"/>
+</room>
+<room name="redmaze2" group="red_labyrinth" bgcolor="GRY">
+
+
+<exit direction="south" room="redmaze3">
+<exit direction="west" room="redmaze1">
+<exit direction="east" room="redmaze1">
+
+<brush x="0" y="0" z="0" width="160" height="16"  color="DOR"/>
+<brush x="0" y="48" z="0" width="64" height="32"  color="DOR"/>
+<brush x="96" y="48" z="0" width="64" height="32"  color="DOR"/>
+<brush x="56" y="80" z="0" width="8" height="112"  color="DOR"/>
+<brush x="96" y="80" z="0" width="8" height="112"  color="DOR"/>
+<brush x="0" y="112" z="0" width="48" height="32"  color="DOR"/>
+<brush x="112" y="112" z="0" width="48" height="32"  color="DOR"/>
+<brush x="0" y="144" z="0" width="16" height="48"  color="DOR"/>
+<brush x="40" y="144" z="0" width="8" height="32"  color="DOR"/>
+<brush x="72" y="144" z="0" width="16" height="48"  color="DOR"/>
+<brush x="112" y="144" z="0" width="8" height="32"  color="DOR"/>
+<brush x="144" y="144" z="0" width="16" height="48"  color="DOR"/>
+<brush x="24" y="176" z="0" width="8" height="16"  color="DOR"/>
+<brush x="40" y="176" z="0" width="24" height="16"  color="DOR"/>
+<brush x="96" y="176" z="0" width="24" height="16"  color="DOR"/>
+<brush x="128" y="176" z="0" width="8" height="16"  color="DOR"/>
+</room>
+<room name="redmaze3" group="red_labyrinth" bgcolor="GRY">
+
+<exit direction="north" room="redmaze2">
+<exit direction="south" room="purpleroom">
+<exit direction="west" room="redmaze0">
+<exit direction="east" room="redmaze0">
+
+<brush x="0" y="0" z="0" width="16" height="80"  color="DOR"/>
+<brush x="24" y="0" z="0" width="8" height="112"  color="DOR"/>
+<brush x="128" y="0" z="0" width="8" height="112"  color="DOR"/>
+<brush x="144" y="0" z="0" width="16" height="80"  color="DOR"/>
+<brush x="40" y="0" z="0" width="24" height="16"  color="DOR"/>
+<brush x="72" y="0" z="0" width="16" height="16"  color="DOR"/>
+<brush x="96" y="0" z="0" width="24" height="16"  color="DOR"/>
+<brush x="40" y="48" z="0" width="80" height="32"  color="DOR"/>
+<brush x="40" y="80" z="0" width="8" height="32"  color="DOR"/>
+<brush x="112" y="80" z="0" width="8" height="32"  color="DOR"/>
+<brush x="0" y="112" z="0" width="48" height="32"  color="DOR"/>
+<brush x="112" y="112" z="0" width="48" height="32"  color="DOR"/>
+<brush x="0" y="176" z="0" width="64" height="16"  color="DOR"/>
+<brush x="96" y="176" z="0" width="64" height="16"  color="DOR"/>
+</room>
+
+<room name="insideblue" group="blue_kingdom" bgcolor="GRY">
+
+<exit brush="outside" room="bluecastle" x="78" y="144"/>
+
+<brush x="0" y="0" z="0" width="160" height="16" color="BLU"/>
+<brush x="0" y="16" z="0" width="8" height="160" color="BLU"/>
+<brush x="152" y="16" z="0" width="8" height="160" color="BLU"/>
+<brush x="0" y="176" z="0" width="64" height="16" color="BLU"/>
+<brush x="96" y="176" z="0" width="64" height="16" color="BLU"/>
+
+<brush x="64" y="190" z="0" width="32" height="2" color="BLU" drawn="false" name="outside"/>
+
+</room>
+
+
+<room name="bluecastle" group="blue_kingdom" bgcolor="GRY">
+
+<exit direction="south" room="corridor"/>
+<exit brush="porticullis" room="insideblue" x="78" y="176" />
+
+<brush x="0" y="0" z="0" width="44" height="16" color="BLU"/>
+<brush x="116" y="0" z="0" width="44" height="16" color="BLU"/>
+<brush x="48" y="0" z="0" width="4" height="16" color="BLU"/>
+<brush x="56" y="0" z="0" width="4" height="16" color="BLU"/>
+<brush x="64" y="0" z="0" width="4" height="16" color="BLU"/>
+<brush x="108" y="0" z="0" width="4" height="16" color="BLU"/>
+<brush x="100" y="0" z="0" width="4" height="16" color="BLU"/>
+<brush x="92" y="0" z="0" width="4" height="16" color="BLU"/>
+	
+<brush x="40" y="16" z="0" width="28" height="32" color="BLU"/>
+<brush x="92" y="16" z="0" width="28" height="32" color="BLU"/>
+<brush x="40" y="48" z="0" width="80" height="32" color="BLU"/>
+<brush x="48" y="80" z="0" width="64" height="32" color="BLU"/>
+<brush x="48" y="112" z="0" width="24" height="32" color="BLU"/>
+<brush x="88" y="112" z="0" width="24" height="32" color="BLU"/>
+
+<brush x="76" y="112" z="0" width="8" height="32" color="GRY" type="GATE" name="porticullis" unlocked="false" keyname="bluekey"/>
+
+<brush x="0" y="16" z="0" width="8" height="160" color="BLU"/>
+<brush x="152" y="16" z="0" width="8" height="160" color="BLU"/>
+
+<brush x="0" y="176" z="0" width="64" height="16" color="BLU"/>
+<brush x="96" y="176" z="0" width="64" height="16" color="BLU"/>
+
+</room>
+
+<room name="corridor" group="passages" bgcolor="GRY">
+
+<exit direction="north" room="bluecastle"/>
+<exit direction="south" room="bottom"/>
+<exit direction="east" room="right"/>
+<exit direction="west" room="left"/>
+
+<brush x="0" y="0" z="0" width="64" height="16" color="BRN"/>
+<brush x="96" y="0" z="0" width="64" height="16" color="BRN"/>
+<brush x="0" y="176" z="0" width="64" height="16" color="BRN"/>
+<brush x="96" y="176" z="0" width="64" height="16" color="BRN"/>
+
+</room>
+
+<room name="bottom" group="passages" bgcolor="GRY">
+
+<exit direction="north" room="corridor"/>
+
+<brush x="0" y="0" z="0" width="64" height="16" color="GRN"/>
+<brush x="96" y="0" z="0" width="64" height="16" color="GRN"/>
+<brush x="0" y="16" z="0" width="8" height="160" color="GRN"/>
+<brush x="152" y="16" z="0" width="8" height="160" color="GRN"/>
+<brush x="0" y="176" z="0" width="160" height="16" color="GRN"/>
+
+</room>
+
+<room name="right" group="passages" bgcolor="GRY">
+
+<exit direction="west" room="corridor"/>
+<exit direction="east" room="forest1"/>
+
+<brush x="0" y="0" z="0" width="160" height="16" color="LGR"/>
+<brush x="152" y="16" z="0" width="8" height="64" color="LGR"/>
+<brush x="152" y="112" z="0" width="8" height="64" color="LGR"/>
+<brush x="0" y="176" z="0" width="160" height="16" color="LGR"/>
+
+</room>
+
+<room name="left" group="passages" bgcolor="GRY">
+
+<exit direction="west" room="creditroom"/>
+<exit direction="east" room="corridor"/>
+<exit direction="north" room="bluemaze0"/>
+<exit direction="south" room="orange0"/>
+
+
+<brush x="0" y="0" z="0" width="64" height="16" color="DYL"/>
+<brush x="96" y="0" z="0" width="64" height="16" color="DYL"/>
+
+<brush x="0" y="16" z="0" width="8" height="64" color="DYL"/>
+<brush x="0" y="80" z="0" width="8" height="32" color="DYL" passable="true"/>
+<brush x="0" y="112" z="0" width="8" height="64" color="DYL"/>
+
+<brush x="0" y="176" z="0" width="64" height="16" color="DYL"/>
+<brush x="96" y="176" z="0" width="64" height="16" color="DYL"/>
+
+<brush x="40" y="80" z="0" width="4" height="12" color="BRN"/>
+<brush x="38" y="60" z="1" width="8" height="20" color="DGR"/>
+<brush x="36" y="64" z="1" width="2" height="12" color="DGR"/>
+<brush x="46" y="64" z="1" width="2" height="12" color="DGR"/>
+<brush x="39" y="56" z="1" width="6" height="4" color="DGR"/>
+
+</room>
+
+
+<room name="insidegreen" group="green_kingdom" bgcolor="GRY">
+
+<exit brush="outsidegreen" room="greencastle" x="78" y="144"/>
+<exit direction="north" room="redmaze0"/>
+
+<brush x="0" y="0" z="0" width="64" height="16" color="DKGR"/>
+<brush x="96" y="0" z="0" width="64" height="16" color="DKGR"/>
+<brush x="0" y="16" z="0" width="8" height="160" color="DKGR"/>
+<brush x="152" y="16" z="0" width="8" height="160" color="DKGR"/>
+<brush x="0" y="176" z="0" width="64" height="16" color="DKGR"/>
+<brush x="96" y="176" z="0" width="64" height="16" color="DKGR"/>
+
+<brush x="64" y="190" z="0" width="32" height="2" color="BLU" name="outsidegreen" drawn="false"/>
+
+</room>
+
+<room name="greencastle" group="green_kingdom" bgcolor="GRY">
+
+<exit direction="south" room="bluemaze4"/>
+<exit brush="greenporticullis" room="insidegreen" x="78" y="176"/>
+
+<brush x="0" y="0" z="0" width="44" height="16" color="DKGR"/>
+<brush x="116" y="0" z="0" width="44" height="16" color="DKGR"/>
+<brush x="48" y="0" z="0" width="4" height="16" color="DKGR"/>
+<brush x="56" y="0" z="0" width="4" height="16" color="DKGR"/>
+<brush x="64" y="0" z="0" width="4" height="16" color="DKGR"/>
+<brush x="108" y="0" z="0" width="4" height="16" color="DKGR"/>
+<brush x="100" y="0" z="0" width="4" height="16" color="DKGR"/>
+<brush x="92" y="0" z="0" width="4" height="16" color="DKGR"/>
+	
+<brush x="40" y="16" z="0" width="28" height="32" color="DKGR"/>
+<brush x="92" y="16" z="0" width="28" height="32" color="DKGR"/>
+<brush x="40" y="48" z="0" width="80" height="32" color="DKGR"/>
+<brush x="48" y="80" z="0" width="64" height="32" color="DKGR"/>
+<brush x="48" y="112" z="0" width="24" height="32" color="DKGR"/>
+<brush x="88" y="112" z="0" width="24" height="32" color="DKGR"/>
+
+<brush x="76" y="112" z="0" width="8" height="32" color="GRY" name="greenporticullis" type="GATE" unlocked="false" keyname="greenkey"/>
+
+<brush x="0" y="16" z="0" width="8" height="160" color="DKGR"/>
+<brush x="152" y="16" z="0" width="8" height="160" color="DKGR"/>
+
+<brush x="0" y="176" z="0" width="64" height="16" color="DKGR"/>
+<brush x="96" y="176" z="0" width="64" height="16" color="DKGR"/>
+
+</room>
+
+<room name="purpleroom" group="passages" bgcolor="GRY">
+
+<exit direction="north" room="redmaze3"/>
+
+<brush x="0" y="0" z="0" width="64" height="16" color="PUR"/>
+<brush x="96" y="0" z="0" width="64" height="16" color="PUR"/>
+<brush x="0" y="16" z="0" width="8" height="160" color="PUR"/>
+<brush x="152" y="16" z="0" width="8" height="160" color="PUR"/>
+<brush x="0" y="176" z="0" width="160" height="16" color="PUR"/>
+
+</room>
+
+<room name="forest1" group="greenbelt" bgcolor="GRY">
+
+<exit direction="east" room="mount1"/>
+<exit direction="west" room="right"/>
+<exit direction="north" room="forest3"/>
+<exit direction="south" room="forest2"/>
+
+<brush x="0" y="0" z="0" width="64" height="16" color="DBR" />
+<brush x="72" y="0" z="0" width="16" height="32" color="DKGR" />
+<brush x="96" y="0" z="0" width="64" height="16" color="DBR" />
+<brush x="0" y="16" z="0" width="8" height="64" color="DBR" />
+<brush x="152" y="16" z="0" width="8" height="64" color="DBR" />
+<brush x="32" y="32" z="0" width="16" height="16" color="DKGR" />
+<brush x="112" y="32" z="0" width="16" height="16" color="DKGR" />
+<brush x="16" y="48" z="0" width="8" height="96" color="DKGR" />
+<brush x="40" y="48" z="0" width="8" height="16" color="DKGR" />
+<brush x="56" y="48" z="0" width="16" height="16" color="DKGR" />
+<brush x="88" y="48" z="0" width="16" height="16" color="DKGR" />
+<brush x="112" y="48" z="0" width="8" height="16" color="DKGR" />
+<brush x="136" y="48" z="0" width="8" height="96" color="DKGR" />
+<brush x="56" y="64" z="0" width="8" height="16" color="DKGR" />
+<brush x="96" y="64" z="0" width="8" height="16" color="DKGR" />
+<brush x="32" y="80" z="0" width="8" height="32" color="DKGR" />
+<brush x="72" y="80" z="0" width="16" height="32" color="DKGR" />
+<brush x="120" y="80" z="0" width="8" height="32" color="DKGR" />
+<brush x="0" y="112" z="0" width="8" height="80" color="DBR" />
+<brush x="56" y="112" z="0" width="8" height="32" color="DKGR" />
+<brush x="96" y="112" z="0" width="8" height="32" color="DKGR" />
+<brush x="152" y="112" z="0" width="8" height="80" color="DBR" />
+<brush x="40" y="128" z="0" width="8" height="32" color="DKGR" />
+<brush x="64" y="128" z="0" width="8" height="16" color="DKGR" />
+<brush x="88" y="128" z="0" width="8" height="16" color="DKGR" />
+<brush x="112" y="128" z="0" width="8" height="32" color="DKGR" />
+<brush x="32" y="144" z="0" width="8" height="16" color="DKGR" />
+<brush x="120" y="144" z="0" width="8" height="16" color="DKGR" />
+<brush x="72" y="160" z="0" width="16" height="32" color="DKGR" />
+<brush x="8" y="176" z="0" width="56" height="16" color="DBR" />
+<brush x="96" y="176" z="0" width="56" height="16" color="DBR" />
+</room>
+
+
+<room name="forest2" group="greenbelt" bgcolor="GRY">
+
+<exit direction="north" room="forest1"/>
+<exit direction="south" room="midforest"/>
+<exit direction="west"  room="graycastle"/>
+
+<brush x="0" y="0" z="0" width="64" height="16" color="DBR" />
+<brush x="72" y="0" z="0" width="16" height="32" color="DKGR" />
+<brush x="96" y="0" z="0" width="64" height="16" color="DBR" />
+<brush x="0" y="16" z="0" width="8" height="64" color="DBR" />
+<brush x="152" y="16" z="0" width="8" height="176" color="DBR" />
+<brush x="16" y="32" z="0" width="16" height="32" color="DKGR" />
+<brush x="128" y="32" z="0" width="16" height="32" color="DKGR" />
+<brush x="56" y="48" z="0" width="8" height="32" color="DKGR" />
+<brush x="96" y="48" z="0" width="8" height="32" color="DKGR" />
+<brush x="64" y="64" z="0" width="8" height="16" color="DKGR" />
+<brush x="88" y="64" z="0" width="8" height="16" color="DKGR" />
+<brush x="32" y="80" z="0" width="8" height="32" color="DKGR" />
+<brush x="120" y="80" z="0" width="8" height="32" color="DKGR" />
+<brush x="24" y="96" z="0" width="8" height="16" color="DKGR" />
+<brush x="128" y="96" z="0" width="8" height="16" color="DKGR" />
+<brush x="0" y="112" z="0" width="8" height="80" color="DBR" />
+<brush x="48" y="112" z="0" width="8" height="32" color="DKGR" />
+<brush x="104" y="112" z="0" width="8" height="32" color="DKGR" />
+<brush x="56" y="128" z="0" width="8" height="16" color="DKGR" />
+<brush x="96" y="128" z="0" width="8" height="16" color="DKGR" />
+<brush x="16" y="144" z="0" width="16" height="32" color="DKGR" />
+<brush x="72" y="144" z="0" width="16" height="32" color="DKGR" />
+<brush x="128" y="144" z="0" width="16" height="32" color="DKGR" />
+<brush x="56" y="160" z="0" width="16" height="16" color="DKGR" />
+<brush x="88" y="160" z="0" width="16" height="16" color="DKGR" />
+</room>
+
+<room name="forest3" group="greenbelt" bgcolor="GRY">
+
+<exit direction="north" room="midforest"/>
+<exit direction="south" room="forest1"/>
+
+<brush x="0" y="0" z="0" width="8" height="192" color="DBR" />
+<brush x="152" y="0" z="0" width="8" height="192" color="DBR" />
+<brush x="16" y="16" z="0" width="16" height="32" color="DKGR" />
+<brush x="56" y="16" z="0" width="48" height="16" color="DKGR" />
+<brush x="128" y="16" z="0" width="16" height="32" color="DKGR" />
+<brush x="72" y="32" z="0" width="16" height="16" color="DKGR" />
+<brush x="48" y="48" z="0" width="16" height="16" color="DKGR" />
+<brush x="96" y="48" z="0" width="16" height="16" color="DKGR" />
+<brush x="48" y="64" z="0" width="8" height="16" color="DKGR" />
+<brush x="104" y="64" z="0" width="8" height="16" color="DKGR" />
+<brush x="24" y="80" z="0" width="16" height="16" color="DKGR" />
+<brush x="120" y="80" z="0" width="16" height="16" color="DKGR" />
+<brush x="32" y="96" z="0" width="8" height="16" color="DKGR" />
+<brush x="120" y="96" z="0" width="8" height="16" color="DKGR" />
+<brush x="56" y="112" z="0" width="16" height="16" color="DKGR" />
+<brush x="88" y="112" z="0" width="16" height="16" color="DKGR" />
+<brush x="16" y="128" z="0" width="16" height="32" color="DKGR" />
+<brush x="56" y="128" z="0" width="8" height="16" color="DKGR" />
+<brush x="96" y="128" z="0" width="8" height="16" color="DKGR" />
+<brush x="128" y="128" z="0" width="16" height="32" color="DKGR" />
+<brush x="72" y="160" z="0" width="16" height="32" color="DKGR" />
+<brush x="8" y="176" z="0" width="56" height="16" color="DBR" />
+<brush x="96" y="176" z="0" width="56" height="16" color="DBR" />
+</room>
+
+<room name="midforest" group="greenbelt" bgcolor="GRY">
+
+<exit direction="north" room="forest2"/>
+<exit direction="south" room="forest3"/>
+ 
+<brush x="0" y="0" z="0" width="8" height="192" color="DBR" />
+<brush x="152" y="0" z="0" width="8" height="192" color="DBR" />
+<brush x="16" y="16" z="0" width="16" height="32" color="DKGR" />
+<brush x="48" y="16" z="0" width="8" height="32" color="DKGR" />
+<brush x="104" y="16" z="0" width="8" height="32" color="DKGR" />
+<brush x="128" y="16" z="0" width="16" height="32" color="DKGR" />
+<brush x="40" y="32" z="0" width="8" height="16" color="DKGR" />
+<brush x="112" y="32" z="0" width="8" height="16" color="DKGR" />
+<brush x="56" y="64" z="0" width="16" height="64" color="DKGR" />
+<brush x="88" y="64" z="0" width="16" height="64" color="DKGR" />
+<brush x="16" y="80" z="0" width="16" height="32" color="DKGR" />
+<brush x="128" y="80" z="0" width="16" height="32" color="DKGR" />
+<brush x="16" y="144" z="0" width="16" height="32" color="DKGR" />
+<brush x="40" y="144" z="0" width="16" height="16" color="DKGR" />
+<brush x="104" y="144" z="0" width="16" height="16" color="DKGR" />
+<brush x="128" y="144" z="0" width="16" height="32" color="DKGR" />
+<brush x="48" y="160" z="0" width="8" height="16" color="DKGR" />
+<brush x="104" y="160" z="0" width="8" height="16" color="DKGR" />
+</room>
+
+<room name="graycastle" group="gray_kingdom" bgcolor="GRY">
+
+<exit direction="east" room="forest2"/>
+<exit brush="porticullis" room="insidegray" x="78" y="176" />
+
+<brush x="0" y="0" z="0" width="44" height="16" color="DKGY"/>
+<brush x="116" y="0" z="0" width="44" height="16" color="DKGY"/>
+<brush x="48" y="0" z="0" width="4" height="16" color="DKGY"/>
+<brush x="56" y="0" z="0" width="4" height="16" color="DKGY"/>
+<brush x="64" y="0" z="0" width="4" height="16" color="DKGY"/>
+<brush x="108" y="0" z="0" width="4" height="16" color="DKGY"/>
+<brush x="100" y="0" z="0" width="4" height="16" color="DKGY"/>
+<brush x="92" y="0" z="0" width="4" height="16" color="DKGY"/>
+	
+<brush x="40" y="16" z="0" width="28" height="32" color="DKGY"/>
+<brush x="92" y="16" z="0" width="28" height="32" color="DKGY"/>
+<brush x="40" y="48" z="0" width="80" height="32" color="DKGY"/>
+<brush x="48" y="80" z="0" width="64" height="32" color="DKGY"/>
+<brush x="48" y="112" z="0" width="24" height="32" color="DKGY"/>
+<brush x="88" y="112" z="0" width="24" height="32" color="DKGY"/>
+
+<brush x="76" y="112" z="0" width="8" height="32" color="GRY" name="porticullis" type="GATE" unlocked="false" keyname="graykey"/>
+
+<brush x="0" y="16" z="0" width="8" height="160" color="DKGY"/>
+
+<brush x="152" y="16" z="0" width="8" height="64" color="DKGY"/>
+<brush x="152" y="112" z="0" width="8" height="64" color="DKGY"/>
+
+<brush x="0" y="176" z="0" width="160" height="16" color="DKGY"/>
+
+</room>
+
+<room name="insidegray" group="gray_kingdom" bgcolor="GRY">
+
+<exit brush="outside" room="graycastle" x="78" y="144" />
+
+<brush x="0" y="0" z="0" width="160" height="16" color="DKGY"/>
+<brush x="0" y="16" z="0" width="8" height="160" color="DKGY"/>
+<brush x="152" y="16" z="0" width="8" height="160" color="DKGY"/>
+<brush x="0" y="176" z="0" width="64" height="16" color="DKGY"/>
+<brush x="96" y="176" z="0" width="64" height="16" color="DKGY"/>
+
+<brush x="64" y="190" z="0" width="32" height="2" color="DKGY" drawn="false" name="outside"/>
+
+</room>
+
+<room name="mount1" group="mountains" bgcolor="GRY">
+
+<exit direction="north" room="mount2" />
+<exit direction="south" room="mount3" />
+<exit direction="west" room="forest1" />
+<exit direction="east" room="mounttop" />
+<exit brush="entrance" room="cave0" x="8" y="88" />
+
+<brush x="0" y="0" z="0" width="8" height="80" color="DBR" />
+<brush x="96" y="0" z="0" width="64" height="16" color="DKGY" />
+<brush x="24" y="16" z="0" width="16" height="48" color="DKGY" />
+<brush x="64" y="16" z="0" width="16" height="32" color="DKGY" />
+<brush x="104" y="16" z="0" width="56" height="64" color="DKGY" />
+<brush x="96" y="32" z="0" width="8" height="32" color="DKGY" />
+<brush x="48" y="64" z="0" width="8" height="16" color="DKGY" />
+<brush name="entrance" x="112" y="80" z="0" width="16" height="32" color="BLK" />
+<brush x="128" y="80" z="0" width="32" height="112" color="DKGY" />
+<brush x="0" y="112" z="0" width="8" height="80" color="DBR" />
+<brush x="80" y="112" z="0" width="8" height="16" color="DKGY" />
+<brush x="104" y="112" z="0" width="24" height="80" color="DKGY" />
+<brush x="24" y="128" z="0" width="8" height="16" color="DKGY" />
+<brush x="56" y="144" z="0" width="16" height="16" color="DKGY" />
+<brush x="96" y="144" z="0" width="8" height="16" color="DKGY" />
+<brush x="24" y="160" z="0" width="24" height="32" color="DKGY" />
+<brush x="64" y="160" z="0" width="16" height="16" color="DKGY" />
+
+</room>
+
+<room name="mount2" group="mountains" bgcolor="GRY">
+
+<exit direction="south" room="mount1" />
+<exit direction="east"  room="mount6" />
+
+<brush x="0" y="0" z="0" width="160" height="16" color="DBR" />
+<brush x="0" y="16" z="0" width="8" height="176" color="DBR" />
+<brush x="8" y="16" z="0" width="24" height="32" color="DKGR" />
+<brush x="40" y="16" z="0" width="16" height="16" color="DKGR" />
+<brush x="64" y="16" z="0" width="16" height="32" color="DKGR" />
+<brush x="88" y="16" z="0" width="16" height="16" color="DKGR" />
+<brush x="128" y="16" z="0" width="16" height="32" color="DKGR" />
+<brush x="96" y="48" z="0" width="16" height="16" color="DKGR" />
+<brush x="16" y="64" z="0" width="16" height="32" color="DKGR" />
+<brush x="56" y="64" z="0" width="16" height="16" color="DKGY" />
+<brush x="136" y="64" z="0" width="24" height="128" color="DKGY" />
+<brush x="56" y="80" z="0" width="8" height="16" color="DKGY" />
+<brush x="96" y="80" z="0" width="40" height="112" color="DKGY" />
+<brush x="88" y="96" z="0" width="8" height="16" color="DKGY" />
+<brush x="16" y="112" z="0" width="8" height="16" color="DKGR" />
+<brush x="48" y="112" z="0" width="16" height="32" color="DKGY" />
+<brush x="80" y="128" z="0" width="16" height="32" color="DKGY" />
+<brush x="16" y="144" z="0" width="16" height="32" color="DKGY" />
+<brush x="64" y="160" z="0" width="8" height="16" color="DKGY" />
+<brush x="88" y="160" z="0" width="8" height="16" color="DKGY" />
+
+</room>
+
+<room name="mount3" group="mountains" bgcolor="GRY">
+
+<exit direction="north" room="mount1" />
+<exit direction="east"  room="mount4" />
+
+<brush x="0" y="0" z="0" width="8" height="192" color="DBR" />
+<brush x="24" y="0" z="0" width="24" height="32" color="DKGY" />
+<brush x="96" y="0" z="0" width="64" height="96" color="DKGY" />
+<brush x="64" y="16" z="0" width="8" height="16" color="DKGY" />
+<brush x="88" y="16" z="0" width="8" height="48" color="DKGY" />
+<brush x="80" y="32" z="0" width="8" height="32" color="DKGY" />
+<brush x="48" y="48" z="0" width="16" height="32" color="DKGY" />
+<brush x="16" y="64" z="0" width="8" height="16" color="DKGR" />
+<brush x="88" y="80" z="0" width="8" height="16" color="DKGY" />
+<brush x="16" y="96" z="0" width="16" height="32" color="DKGR" />
+<brush x="56" y="96" z="0" width="8" height="32" color="DKGY" />
+<brush x="96" y="96" z="0" width="48" height="16" color="DKGY" />
+<brush x="64" y="112" z="0" width="8" height="16" color="DKGY" />
+<brush x="96" y="128" z="0" width="16" height="16" color="DKGR" />
+<brush x="8" y="144" z="0" width="24" height="32" color="DKGR" />
+<brush x="64" y="144" z="0" width="16" height="32" color="DKGR" />
+<brush x="128" y="144" z="0" width="16" height="32" color="DKGR" />
+<brush x="40" y="160" z="0" width="16" height="16" color="DKGR" />
+<brush x="88" y="160" z="0" width="16" height="16" color="DKGR" />
+<brush x="8" y="176" z="0" width="152" height="16" color="DBR" />
+
+</room>
+
+<room name="mount4" group="mountains" bgcolor="GRY">
+
+<exit direction="west" room="mount3" />
+<exit direction="north" room="mount5" />
+
+
+<brush x="24" y="32" z="-1" width="8" height="32" color="DGY" />
+<brush x="24" y="32" z="0" width="8" height="32" color="DGY" name="gate" type="GATE" keyname="cavekey"/>
+
+<brush x="0" y="0" z="0" width="32" height="32" color="DKGY" />
+<brush x="32" y="0" z="-1" width="16" height="64" color="DGY" />
+<brush x="48" y="0" z="0" width="64" height="32" color="DKGY" />
+<brush x="152" y="0" z="0" width="8" height="192" color="DBR" />
+<brush x="128" y="16" z="0" width="16" height="32" color="DKGY" />
+<brush x="0" y="32" z="0" width="8" height="64" color="DKGY" />
+<brush x="8" y="32" z="0" width="8" height="32" color="BLK" />
+<brush x="16" y="32" z="-1" width="8" height="32" color="DGY" />
+<brush x="48" y="32" z="-1" width="24" height="16" color="DGY" />
+<brush x="72" y="32" z="0" width="24" height="64" color="DKGY" />
+<brush x="48" y="48" z="0" width="24" height="64" color="DKGY" />
+<brush x="112" y="48" z="0" width="8" height="16" color="DKGY" />
+<brush x="8" y="64" z="0" width="40" height="32" color="DKGY" />
+<brush x="96" y="64" z="0" width="8" height="16" color="DKGY" />
+<brush x="128" y="80" z="0" width="16" height="32" color="DKGY" />
+<brush x="24" y="96" z="0" width="24" height="16" color="DKGY" />
+<brush x="120" y="112" z="0" width="8" height="16" color="DKGY" />
+<brush x="144" y="112" z="0" width="8" height="64" color="DKGR" />
+<brush x="40" y="128" z="0" width="16" height="32" color="DKGR" />
+<brush x="88" y="128" z="0" width="16" height="16" color="DKGR" />
+<brush x="136" y="128" z="0" width="8" height="48" color="DKGR" />
+<brush x="8" y="144" z="0" width="16" height="32" color="DKGR" />
+<brush x="80" y="144" z="0" width="16" height="16" color="DKGR" />
+<brush x="128" y="144" z="0" width="8" height="32" color="DKGR" />
+<brush x="104" y="160" z="0" width="8" height="16" color="DKGR" />
+<brush x="120" y="160" z="0" width="8" height="16" color="DKGR" />
+<brush x="0" y="176" z="0" width="152" height="16" color="DBR" />
+
+</room>
+
+<room name="mount6" group="mountains" bgcolor="GRY">
+
+<exit direction="west" room="mount2" />
+<exit direction="south" room="mount5" />
+
+<brush x="0" y="0" z="0" width="160" height="16" color="DBR" />
+<brush x="16" y="16" z="0" width="16" height="16" color="DKGR" />
+<brush x="88" y="16" z="0" width="64" height="16" color="DKGR" />
+<brush x="152" y="16" z="0" width="8" height="176" color="DBR" />
+<brush x="56" y="32" z="0" width="16" height="16" color="DKGR" />
+<brush x="96" y="32" z="0" width="16" height="16" color="DKGR" />
+<brush x="136" y="32" z="0" width="16" height="16" color="DKGR" />
+<brush x="48" y="48" z="0" width="16" height="16" color="DKGR" />
+<brush x="104" y="48" z="0" width="8" height="16" color="DKGR" />
+<brush x="120" y="48" z="0" width="8" height="16" color="DKGY" />
+<brush x="144" y="48" z="0" width="8" height="32" color="DKGR" />
+<brush x="0" y="64" z="0" width="32" height="128" color="DKGY" />
+<brush x="88" y="64" z="0" width="8" height="16" color="DKGR" />
+<brush x="32" y="80" z="0" width="40" height="112" color="DKGY" />
+<brush x="128" y="80" z="0" width="16" height="32" color="DKGY" />
+<brush x="88" y="96" z="0" width="8" height="48" color="DKGY" />
+<brush x="72" y="112" z="0" width="16" height="80" color="DKGY" />
+<brush x="96" y="112" z="0" width="8" height="32" color="DKGY" />
+<brush x="112" y="144" z="0" width="16" height="32" color="DKGY" />
+<brush x="144" y="144" z="0" width="8" height="32" color="DKGY" />
+<brush x="88" y="160" z="0" width="8" height="32" color="DKGY" />
+
+</room>
+ 
+<room name="mount5" group="mountains" bgcolor="GRY">
+
+<exit direction="north" room="mount6" />
+<exit direction="south" room="mount4" />
+<exit direction="west"  room="mounttop" />
+
+<brush x="0" y="0" z="0" width="96" height="16" color="DKGY" />
+<brush x="152" y="0" z="0" width="8" height="192" color="DBR" />
+<brush x="0" y="16" z="-1" width="64" height="16" color="DGY" />
+<brush x="64" y="16" z="0" width="48" height="16" color="DKGY" />
+<brush x="128" y="16" z="0" width="16" height="48" color="DKGY" />
+<brush x="0" y="32" z="-1" width="24" height="16" color="DGY" />
+<brush x="24" y="32" z="0" width="24" height="128" color="DKGY" />
+<brush x="48" y="32" z="-1" width="16" height="32" color="DGY" />
+<brush x="64" y="32" z="0" width="32" height="64" color="DKGY" />
+<brush x="0" y="48" z="0" width="16" height="32" color="DKGY" />
+<brush x="16" y="48" z="-1" width="8" height="128" color="DGY" />
+<brush x="112" y="48" z="0" width="8" height="16" color="DKGY" />
+<brush x="48" y="64" z="-1" width="8" height="48" color="DGY" />
+<brush x="56" y="64" z="0" width="8" height="32" color="DKGY" />
+<brush x="96" y="64" z="0" width="8" height="16" color="DKGY" />
+<brush x="0" y="80" z="0" width="8" height="48" color="DKGY" />
+<brush x="8" y="80" z="-1" width="8" height="32" color="DGY" />
+<brush x="128" y="80" z="0" width="16" height="32" color="DKGY" />
+<brush x="56" y="96" z="-1" width="40" height="16" color="DGY" />
+<brush x="104" y="96" z="0" width="8" height="16" color="DKGR" />
+<brush x="8" y="112" z="0" width="8" height="16" color="DKGY" />
+<brush x="48" y="112" z="0" width="40" height="80" color="DKGY" />
+<brush x="120" y="112" z="0" width="8" height="16" color="DKGY" />
+<brush x="144" y="112" z="0" width="8" height="48" color="DKGR" />
+<brush x="0" y="128" z="-1" width="16" height="32" color="DGY" />
+<brush x="104" y="128" z="0" width="8" height="16" color="DKGY" />
+<brush x="136" y="128" z="0" width="8" height="16" color="DKGR" />
+<brush x="88" y="144" z="0" width="8" height="48" color="DKGY" />
+<brush x="0" y="160" z="0" width="16" height="32" color="DKGY" />
+<brush x="24" y="160" z="-1" width="24" height="16" color="DGY" />
+<brush x="96" y="160" z="0" width="16" height="32" color="DKGY" />
+<brush x="128" y="160" z="0" width="8" height="16" color="DKGR" />
+<brush x="16" y="176" z="0" width="16" height="16" color="DKGY" />
+<brush x="32" y="176" z="-1" width="16" height="16" color="DGY" />
+
+</room>
+
+<room name="mounttop" group="mountains" bgcolor="GRY">
+
+<exit direction="east" room="mount5" />
+<exit direction="west" room="mount1" />
+<exit brush="topmouth" room="topcave" x="48" y="72" />
+
+<brush x="0" y="0" z="0" width="160" height="16" color="DKGY" />
+<brush x="0" y="16" z="0" width="24" height="16" color="DKGY" />
+<brush x="24" y="16" z="-1" width="72" height="16" color="DGY" />
+<brush x="96" y="16" z="0" width="48" height="16" color="DKGY" />
+<brush x="144" y="16" z="-1" width="16" height="32" color="DGY" />
+<brush x="0" y="32" z="0" width="16" height="160" color="DKGY" />
+<brush x="16" y="32" z="-1" width="16" height="16" color="DGY" />
+<brush x="32" y="32" z="0" width="56" height="32" color="DKGY" />
+<brush x="88" y="32" z="-1" width="16" height="48" color="DGY" />
+<brush x="104" y="32" z="0" width="40" height="16" color="DKGY" />
+<brush x="16" y="48" z="-1" width="8" height="112" color="DGY" />
+<brush x="24" y="48" z="0" width="8" height="96" color="DKGY" />
+<brush x="104" y="48" z="-1" width="16" height="32" color="DGY" />
+<brush x="120" y="48" z="0" width="24" height="48" color="DKGY" />
+<brush x="144" y="48" z="-1" width="8" height="64" color="DGY" />
+<brush x="152" y="48" z="0" width="8" height="80" color="DKGY" />
+<brush x="32" y="64" z="0" width="8" height="96" color="DKGY" />
+<brush name="topmouth" x="40" y="64" z="0" width="16" height="32" color="BLK" />
+<brush x="56" y="64" z="0" width="24" height="48" color="DKGY" />
+<brush x="80" y="64" z="-1" width="8" height="64" color="DGY" />
+<brush x="88" y="80" z="0" width="32" height="32" color="DKGY" />
+<brush x="40" y="96" z="-1" width="16" height="32" color="DGY" />
+<brush x="120" y="96" z="-1" width="24" height="16" color="DGY" />
+<brush x="56" y="112" z="-1" width="24" height="16" color="DGY" />
+<brush x="88" y="112" z="0" width="8" height="48" color="DKGY" />
+<brush name="2ndmouth" x="96" y="112" z="0" width="16" height="16" color="BLK" />
+<brush x="112" y="112" z="0" width="8" height="16" color="DKGY" />
+<brush x="120" y="112" z="-1" width="8" height="32" color="DGY" />
+<brush x="128" y="112" z="0" width="24" height="16" color="DKGY" />
+<brush x="40" y="128" z="0" width="48" height="32" color="DKGY" />
+<brush x="96" y="128" z="-1" width="24" height="16" color="DGY" />
+<brush x="128" y="128" z="0" width="16" height="16" color="DKGY" />
+<brush x="144" y="128" z="-1" width="16" height="32" color="DGY" />
+<brush x="24" y="144" z="-1" width="8" height="32" color="DGY" />
+<brush x="96" y="144" z="0" width="40" height="16" color="DKGY" />
+<brush x="136" y="144" z="-1" width="8" height="32" color="DGY" />
+<brush x="16" y="160" z="0" width="8" height="32" color="DKGY" />
+<brush x="32" y="160" z="-1" width="104" height="16" color="DGY" />
+<brush x="144" y="160" z="0" width="16" height="32" color="DKGY" />
+<brush x="24" y="176" z="0" width="120" height="16" color="DKGY" />
+
+</room>
+
+<room name="topcave" group="mountains" bgcolor="GRY" darkness="true">
+
+<exit brush="exitglow" room="mounttop" x="48" y="104" />
+
+<brush x="0" y="0" z="0" width="160" height="16" color="DKGY" />
+<brush x="0" y="16" z="0" width="8" height="176" color="DKGY" />
+<brush x="56" y="16" z="0" width="8" height="48" color="DKGY" />
+<brush x="88" y="16" z="0" width="8" height="80" color="DKGY" />
+<brush x="120" y="16" z="0" width="8" height="16" color="DKGY" />
+<brush x="152" y="16" z="0" width="8" height="176" color="DKGY" />
+<brush x="32" y="32" z="0" width="8" height="32" color="DKGY" />
+<brush x="72" y="32" z="0" width="8" height="48" color="DKGY" />
+<brush x="136" y="32" z="0" width="8" height="32" color="DKGY" />
+<brush x="16" y="48" z="0" width="16" height="16" color="DKGY" />
+<brush x="40" y="48" z="0" width="16" height="16" color="DKGY" />
+<brush x="104" y="48" z="0" width="8" height="64" color="DKGY" />
+<brush x="120" y="48" z="0" width="16" height="16" color="DKGY" />
+<brush x="24" y="64" z="0" width="8" height="48" color="DKGY" />
+<brush x="16" y="80" z="0" width="8" height="16" color="DKGY" />
+<brush x="40" y="80" z="0" width="8" height="16" color="DKGY" />
+<brush name="exitglow" x="48" y="80" z="0" width="16" height="16" color="LOR" />
+<brush x="64" y="80" z="0" width="8" height="32" color="DKGY" />
+<brush x="120" y="80" z="0" width="24" height="16" color="DKGY" />
+<brush x="48" y="96" z="0" width="16" height="16" color="DKGY" />
+<brush x="72" y="96" z="0" width="8" height="16" color="DKGY" />
+<brush x="136" y="96" z="0" width="8" height="32" color="DKGY" />
+<brush x="32" y="112" z="0" width="16" height="16" color="DKGY" />
+<brush x="80" y="112" z="0" width="24" height="16" color="DKGY" />
+<brush x="128" y="112" z="0" width="8" height="32" color="DKGY" />
+<brush x="16" y="128" z="0" width="16" height="16" color="DKGY" />
+<brush x="48" y="128" z="0" width="8" height="16" color="DKGY" />
+<brush x="72" y="128" z="0" width="8" height="32" color="DKGY" />
+<brush x="96" y="128" z="0" width="32" height="16" color="DKGY" />
+<brush x="64" y="144" z="0" width="8" height="16" color="DKGY" />
+<brush x="48" y="160" z="0" width="8" height="32" color="DKGY" />
+<brush x="96" y="160" z="0" width="8" height="32" color="DKGY" />
+<brush x="128" y="160" z="0" width="8" height="32" color="DKGY" />
+<brush x="8" y="176" z="0" width="40" height="16" color="DKGY" />
+<brush x="56" y="176" z="0" width="40" height="16" color="DKGY" />
+<brush x="104" y="176" z="0" width="24" height="16" color="DKGY" />
+<brush x="136" y="176" z="0" width="16" height="16" color="DKGY" />
+
+
+</room>
+<room name="cave0" group="caverns" bgcolor="GRY" darkness="true">
+
+<exit direction="east" room="cave1" />
+<exit direction="north" room="cave2" />
+<exit direction="south" room="cave2" />
+<exit brush="caveexit" room="mount1" x="104" y="88" />
+<exit brush="pitdown" room="pit2" x="108" y="88" />
+
+<brush x="0" y="0" z="0" width="8" height="80" color="DKGY" />
+<brush x="32" y="0" z="0" width="8" height="80" color="DKGY" />
+<brush x="56" y="0" z="0" width="8" height="48" color="DKGY" />
+<brush x="80" y="0" z="0" width="32" height="16" color="DKGY" />
+<brush x="144" y="0" z="0" width="16" height="32" color="DKGY" />
+<brush x="104" y="16" z="0" width="8" height="32" color="DKGY" />
+<brush x="64" y="32" z="0" width="24" height="16" color="DKGY" />
+<brush x="152" y="32" z="0" width="8" height="48" color="DKGY" />
+<brush x="72" y="48" z="0" width="16" height="16" color="DKGY" />
+<brush x="40" y="64" z="0" width="16" height="16" color="DKGY" />
+<brush x="128" y="64" z="0" width="24" height="16" color="DKGY" />
+<brush name="caveexit" x="0" y="80" z="0" width="8" height="32" color="YEL" />
+<brush x="48" y="80" z="0" width="8" height="48" color="DKGY" />
+<brush x="72" y="80" z="0" width="64" height="32" color="DKGY" />
+<brush name="pitdown" x="136" y="80" z="0" width="16" height="32" color="BLK" />
+<brush x="0" y="112" z="0" width="8" height="80" color="DKGY" />
+<brush x="32" y="112" z="0" width="16" height="16" color="DKGY" />
+<brush x="128" y="112" z="0" width="32" height="16" color="DKGY" />
+<brush x="32" y="128" z="0" width="8" height="64" color="DKGY" />
+<brush x="72" y="128" z="0" width="16" height="32" color="DKGY" />
+<brush x="152" y="128" z="0" width="8" height="64" color="DKGY" />
+<brush x="56" y="144" z="0" width="16" height="16" color="DKGY" />
+<brush x="104" y="144" z="0" width="8" height="48" color="DKGY" />
+<brush x="56" y="160" z="0" width="8" height="32" color="DKGY" />
+<brush x="144" y="160" z="0" width="8" height="32" color="DKGY" />
+<brush x="80" y="176" z="0" width="24" height="16" color="DKGY" />
+</room>
+
+
+<room name="cave1" group="caverns" bgcolor="GRY" darkness="true">
+
+<exit direction="west" room="cave0" />
+<exit direction="north" room="cave3" />
+<exit direction="south" room="cave3" />
+
+
+<brush x="0" y="0" z="0" width="8" height="80" color="DKGY" />
+<brush x="24" y="0" z="0" width="24" height="16" color="DKGY" />
+<brush x="64" y="0" z="0" width="16" height="48" color="DKGY" />
+<brush x="152" y="0" z="0" width="8" height="192" color="DKGY" />
+<brush x="24" y="16" z="0" width="8" height="16" color="DKGY" />
+<brush x="112" y="16" z="0" width="40" height="32" color="DKGY" />
+<brush x="48" y="32" z="0" width="16" height="48" color="DKGY" />
+<brush x="80" y="32" z="0" width="16" height="48" color="DKGY" />
+<brush x="8" y="64" z="0" width="24" height="16" color="DKGY" />
+<brush x="96" y="64" z="0" width="40" height="16" color="DKGY" />
+<brush x="24" y="80" z="0" width="8" height="112" color="DKGY" />
+<brush x="32" y="96" z="0" width="64" height="16" color="DKGY" />
+<brush x="112" y="96" z="0" width="40" height="16" color="DKGY" />
+<brush x="0" y="112" z="0" width="8" height="80" color="DKGY" />
+<brush x="88" y="112" z="0" width="8" height="48" color="DKGY" />
+<brush x="112" y="112" z="0" width="8" height="48" color="DKGY" />
+<brush x="48" y="144" z="0" width="40" height="16" color="DKGY" />
+<brush x="48" y="160" z="0" width="8" height="32" color="DKGY" />
+<brush x="88" y="176" z="0" width="64" height="16" color="DKGY" />
+</room>
+
+<room name="cave2" group="caverns" bgcolor="GRY" darkness="true">
+
+<exit direction="east" room="cave3" />
+<exit direction="north" room="cave0" />
+<exit direction="south" room="cave0" />
+
+<brush x="0" y="0" z="0" width="8" height="192" color="DKGY" />
+<brush x="32" y="0" z="0" width="8" height="80" color="DKGY" />
+<brush x="56" y="0" z="0" width="8" height="32" color="DKGY" />
+<brush x="80" y="0" z="0" width="32" height="16" color="DKGY" />
+<brush x="144" y="0" z="0" width="16" height="32" color="DKGY" />
+<brush x="64" y="16" z="0" width="24" height="16" color="DKGY" />
+<brush x="104" y="16" z="0" width="8" height="176" color="DKGY" />
+<brush x="128" y="16" z="0" width="16" height="16" color="DKGY" />
+<brush x="128" y="32" z="0" width="8" height="48" color="DKGY" />
+<brush x="40" y="64" z="0" width="40" height="16" color="DKGY" />
+<brush x="152" y="64" z="0" width="8" height="64" color="DKGY" />
+<brush x="32" y="112" z="0" width="48" height="16" color="DKGY" />
+<brush x="128" y="112" z="0" width="8" height="64" color="DKGY" />
+<brush x="32" y="128" z="0" width="8" height="64" color="DKGY" />
+<brush x="56" y="160" z="0" width="32" height="16" color="DKGY" />
+<brush x="136" y="160" z="0" width="24" height="16" color="DKGY" />
+<brush x="56" y="176" z="0" width="8" height="16" color="DKGY" />
+<brush x="80" y="176" z="0" width="24" height="16" color="DKGY" />
+<brush x="144" y="176" z="0" width="16" height="16" color="DKGY" />
+</room>
+
+<room name="cave3" group="caverns" bgcolor="GRY" darkness="true">
+
+<exit direction="west" room="cave2" />
+<exit direction="north" room="cave1" />
+<exit direction="south" room="cave1" />
+<exit direction="east" room="fireroom" />
+
+
+<brush x="0" y="0" z="0" width="8" height="32" color="DKGY" />
+<brush x="24" y="0" z="0" width="8" height="192" color="DKGY" />
+<brush x="48" y="0" z="0" width="8" height="144" color="DKGY" />
+<brush x="88" y="0" z="0" width="72" height="16" color="DKGY" />
+<brush x="152" y="16" z="0" width="8" height="64" color="DKGY" />
+<brush x="80" y="32" z="0" width="56" height="16" color="DKGY" />
+<brush x="80" y="48" z="0" width="8" height="64" color="DKGY" />
+<brush x="128" y="48" z="0" width="8" height="80" color="DKGY" />
+<brush x="0" y="64" z="0" width="24" height="16" color="DKGY" />
+<brush x="0" y="80" z="0" width="8" height="48" color="DKGY" />
+<brush x="88" y="96" z="0" width="16" height="32" color="DKGY" />
+<brush x="136" y="112" z="0" width="24" height="16" color="DKGY" />
+<brush x="56" y="128" z="0" width="16" height="16" color="DKGY" />
+<brush x="152" y="128" z="0" width="8" height="64" color="DKGY" />
+<brush x="64" y="144" z="0" width="8" height="48" color="DKGY" />
+<brush x="0" y="160" z="0" width="8" height="32" color="DKGY" />
+<brush x="32" y="160" z="0" width="16" height="32" color="DKGY" />
+<brush x="72" y="160" z="0" width="80" height="16" color="DKGY" />
+<brush x="72" y="176" z="0" width="8" height="16" color="DKGY" />
+</room>
+
+
+<room name="pit0" group="pit" bgcolor="GRY" darkness="true">
+
+<exit direction="north" room="pit1"/>
+<exit direction="south" room="pit2"/>
+<exit direction="west" room="pit4"/>
+<exit direction="east" room="pit4"/>
+
+
+<brush x="0" y="0" z="0" width="8" height="192" color="DKGY" />
+<brush x="24" y="0" z="0" width="48" height="16" color="DKGY" />
+<brush x="88" y="0" z="0" width="72" height="16" color="DKGY" />
+<brush x="24" y="16" z="0" width="8" height="64" color="DKGY" />
+<brush x="64" y="16" z="0" width="8" height="48" color="DKGY" />
+<brush x="112" y="16" z="0" width="8" height="48" color="DKGY" />
+<brush x="152" y="16" z="0" width="8" height="176" color="DKGY" />
+<brush x="72" y="48" z="0" width="24" height="16" color="DKGY" />
+<brush x="80" y="80" z="0" width="56" height="32" color="DKGY" />
+<brush x="24" y="112" z="0" width="8" height="80" color="DKGY" />
+<brush x="48" y="128" z="0" width="48" height="32" color="DKGY" />
+<brush x="136" y="128" z="0" width="16" height="32" color="DKGY" />
+</room>
+
+<room name="pit1" group="pit" bgcolor="GRY" darkness="true">
+
+<exit direction="north" room="pit3"/>
+<exit direction="south" room="pit0"/>
+<exit direction="west" room="pit3"/>
+<exit direction="east" room="pit2"/>
+
+
+<brush x="0" y="0" z="0" width="72" height="32" color="DKGY" />
+<brush x="88" y="0" z="0" width="72" height="32" color="DKGY" />
+<brush x="64" y="32" z="0" width="8" height="64" color="DKGY" />
+<brush x="88" y="32" z="0" width="8" height="64" color="DKGY" />
+<brush x="152" y="32" z="0" width="8" height="48" color="DKGY" />
+<brush x="128" y="48" z="0" width="8" height="96" color="DKGY" />
+<brush x="0" y="64" z="0" width="32" height="16" color="DKGY" />
+<brush x="48" y="64" z="0" width="16" height="32" color="DKGY" />
+<brush x="96" y="64" z="0" width="16" height="32" color="DKGY" />
+<brush x="0" y="80" z="0" width="8" height="48" color="DKGY" />
+<brush x="24" y="80" z="0" width="8" height="112" color="DKGY" />
+<brush x="48" y="112" z="0" width="24" height="32" color="DKGY" />
+<brush x="88" y="112" z="0" width="24" height="32" color="DKGY" />
+<brush x="152" y="112" z="0" width="8" height="80" color="DKGY" />
+<brush x="64" y="144" z="0" width="8" height="48" color="DKGY" />
+<brush x="88" y="144" z="0" width="8" height="48" color="DKGY" />
+<brush x="0" y="160" z="0" width="8" height="32" color="DKGY" />
+<brush x="32" y="160" z="0" width="32" height="32" color="DKGY" />
+<brush x="96" y="160" z="0" width="56" height="32" color="DKGY" />
+</room>
+
+<room name="pit2" group="pit" bgcolor="GRY" darkness="true">
+
+<exit direction="north" room="pit0"/>
+<exit direction="south" room="pit4"/>
+<exit direction="west" room="pit1"/>
+<exit direction="east" room="pit3"/>
+
+<brush x="0" y="0" z="0" width="8" height="80" color="DKGY" />
+<brush x="24" y="0" z="0" width="8" height="192" color="DKGY" />
+<brush x="152" y="0" z="0" width="8" height="48" color="DKGY" />
+<brush x="112" y="16" z="0" width="16" height="64" color="DKGY" />
+<brush x="48" y="32" z="0" width="48" height="16" color="DKGY" />
+<brush x="128" y="32" z="0" width="24" height="16" color="DKGY" />
+<brush x="48" y="48" z="0" width="8" height="48" color="DKGY" />
+<brush x="88" y="48" z="0" width="8" height="48" color="DKGY" />
+<brush x="128" y="64" z="0" width="32" height="16" color="DKGY" />
+<brush x="56" y="80" z="0" width="32" height="16" color="DKGY" />
+<brush x="104" y="80" z="-1" width="16" height="32" color="DGY" />
+<brush x="152" y="80" z="0" width="8" height="112" color="DKGY" />
+<brush x="144" y="96" z="0" width="8" height="96" color="DKGY" />
+<brush x="0" y="112" z="0" width="8" height="80" color="DKGY" />
+<brush x="32" y="128" z="0" width="48" height="32" color="DKGY" />
+<brush x="96" y="160" z="0" width="48" height="32" color="DKGY" />
+</room>
+
+<room name="pit3" group="pit" bgcolor="GRY" darkness="true">
+
+<exit direction="west" room="pit2"/>
+<exit direction="north" room="pit4"/>
+<exit direction="east" room="pit1"/>
+<exit direction="south" room="pit1"/>
+<exit brush="light" room="mount4" x="66" y="36" />
+
+<brush x="0" y="0" z="0" width="8" height="48" color="DKGY" />
+<brush x="24" y="0" z="0" width="48" height="16" color="DKGY" />
+<brush x="88" y="0" z="0" width="72" height="16" color="DKGY" />
+<brush x="24" y="16" z="0" width="8" height="128" color="DKGY" />
+<brush x="152" y="16" z="0" width="8" height="16" color="DKGY" />
+<brush x="56" y="32" z="0" width="8" height="32" color="DKGY" />
+<brush x="32" y="48" z="0" width="24" height="16" color="DKGY" />
+<brush x="0" y="64" z="0" width="8" height="128" color="DKGY" />
+<brush x="88" y="64" z="0" width="72" height="16" color="DKGY" />
+<brush x="88" y="80" z="0" width="8" height="48" color="DKGY" />
+<brush x="152" y="80" z="0" width="8" height="48" color="DKGY" />
+<brush x="96" y="112" z="0" width="56" height="16" color="DKGY" />
+<brush x="8" y="128" z="0" width="16" height="16" color="DKGY" />
+<brush x="40" y="144" z="0" width="8" height="48" color="DKGY" />
+<brush x="88" y="144" z="0" width="8" height="48" color="DKGY" />
+<brush x="152" y="160" z="0" width="8" height="32" color="DKGY" />
+<brush x="8" y="176" z="0" width="32" height="16" color="DKGY" />
+<brush x="48" y="176" z="0" width="24" height="16" color="DKGY" />
+<brush x="96" y="176" z="0" width="56" height="16" color="DKGY" />
+<brush name="light" x="8" y="144" z="0" width="8" height="32" color="YEL" />
+</room>
+
+<room name="pit4" group="pit" bgcolor="GRY" darkness="true">
+
+<exit direction="north" room="pit2"/>
+<exit direction="south" room="pit3"/>
+<exit direction="west" room="pit0"/>
+<exit direction="east" room="pit0"/>
+
+
+<brush x="0" y="0" z="0" width="8" height="192" color="DKGY" />
+<brush x="24" y="0" z="0" width="8" height="80" color="DKGY" />
+<brush x="96" y="0" z="0" width="64" height="16" color="DKGY" />
+<brush x="56" y="16" z="0" width="16" height="64" color="DKGY" />
+<brush x="144" y="16" z="0" width="16" height="64" color="DKGY" />
+<brush x="72" y="48" z="0" width="48" height="32" color="DKGY" />
+<brush x="128" y="48" z="0" width="16" height="32" color="DKGY" />
+<brush x="152" y="80" z="0" width="8" height="112" color="DKGY" />
+<brush x="96" y="96" z="0" width="56" height="32" color="DKGY" />
+<brush x="24" y="112" z="0" width="8" height="80" color="DKGY" />
+<brush x="48" y="144" z="0" width="16" height="48" color="DKGY" />
+<brush x="32" y="176" z="0" width="16" height="16" color="DKGY" />
+<brush x="64" y="176" z="0" width="8" height="16" color="DKGY" />
+<brush x="88" y="176" z="0" width="64" height="16" color="DKGY" />
+</room>
+
+<room name="fireroom" group="caverns" bgcolor="GRY" >
+
+<exit direction="west" room="cave3" />
+
+<brush x="0" y="0" z="0" width="160" height="16" color="RED" />
+<brush x="0" y="16" z="0" width="8" height="64" color="RED" />
+<brush x="152" y="16" z="0" width="8" height="176" color="RED" />
+<brush x="32" y="32" z="0" width="8" height="16" color="RED" />
+<brush x="120" y="32" z="0" width="8" height="16" color="RED" />
+<brush x="32" y="48" z="0" width="8" height="32" color="DBR" />
+<brush x="120" y="48" z="0" width="8" height="32" color="DBR" />
+<brush x="0" y="112" z="0" width="8" height="80" color="RED" />
+<brush x="32" y="112" z="0" width="8" height="16" color="RED" />
+<brush x="120" y="112" z="0" width="8" height="16" color="RED" name="torch" force="NORTH"/>
+<brush x="32" y="128" z="0" width="8" height="32" color="DBR" trigger="TOGGLE" target="fireroom/torch"/>
+<brush x="120" y="128" z="0" width="8" height="32" color="DBR" />
+<brush x="8" y="176" z="0" width="144" height="16" color="RED" />
+</room>
+
+<room name="creditroom" group="passages" bgcolor="GRY" >
+
+<exit direction="east" room="left" />
+
+<brush x="0" y="0" z="0" width="160" height="16" color="ORN" />
+<brush x="0" y="16" z="0" width="8" height="64" color="ORN" />
+<brush x="24" y="16" z="-1" width="16" height="64" color="DGY" image="code" />
+<brush x="56" y="16" z="-1" width="32" height="32" color="DGY" image="teth" />
+<brush x="152" y="16" z="0" width="8" height="64" color="ORN" />
+<brush x="0" y="112" z="0" width="8" height="80" color="ORN" />
+<brush x="120" y="112" z="-1" width="16" height="64" color="DGY" />
+<brush x="152" y="112" z="0" width="8" height="80" color="ORN" />
+<brush x="72" y="144" z="-1" width="32" height="32" color="DGY" />
+<brush x="8" y="176" z="0" width="144" height="16" color="ORN" />
+
+</room>
+
+<room name="orange0" group="orangemaze" bgcolor="GRY">
+
+<exit direction="south" room="orange1"/>
+<exit direction="north" room="left"/>
+<exit direction="west" room="orange1"/>
+<exit direction="east" room="orange1"/>
+
+
+<brush x="0" y="0" z="0" width="64" height="16" color="DOR" />
+<brush x="96" y="0" z="0" width="64" height="16" color="DOR" />
+<brush x="24" y="16" z="0" width="8" height="128" color="DOR" />
+<brush x="128" y="16" z="0" width="8" height="128" color="DOR" />
+<brush x="0" y="48" z="0" width="16" height="32" color="DOR" />
+<brush x="48" y="48" z="0" width="64" height="32" color="DOR" />
+<brush x="144" y="48" z="0" width="16" height="32" color="DOR" />
+<brush x="72" y="80" z="0" width="16" height="112" color="DOR" />
+<brush x="0" y="112" z="0" width="24" height="32" color="DOR" />
+<brush x="40" y="112" z="0" width="8" height="80" color="DOR" />
+<brush x="112" y="112" z="0" width="8" height="80" color="DOR" />
+<brush x="136" y="112" z="0" width="24" height="32" color="DOR" />
+<brush x="0" y="176" z="0" width="40" height="16" color="DOR" />
+<brush x="56" y="176" z="0" width="8" height="16" color="DOR" />
+<brush x="96" y="176" z="0" width="8" height="16" color="DOR" />
+<brush x="120" y="176" z="0" width="40" height="16" color="DOR" />
+</room>
+
+<room name="orange1" group="orangemaze" bgcolor="GRY">
+
+<exit direction="south" room="orange2"/>
+<exit direction="north" room="orange0"/>
+<exit direction="west" room="orange0"/>
+<exit direction="east" room="orange0"/>
+
+
+<brush x="0" y="0" z="0" width="48" height="16" color="DOR" />
+<brush x="56" y="0" z="0" width="8" height="80" color="DOR" />
+<brush x="72" y="0" z="0" width="16" height="80" color="DOR" />
+<brush x="96" y="0" z="0" width="8" height="80" color="DOR" />
+<brush x="112" y="0" z="0" width="48" height="16" color="DOR" />
+<brush x="0" y="48" z="0" width="16" height="32" color="DOR" />
+<brush x="40" y="48" z="0" width="16" height="32" color="DOR" />
+<brush x="104" y="48" z="0" width="16" height="32" color="DOR" />
+<brush x="144" y="48" z="0" width="16" height="32" color="DOR" />
+<brush x="40" y="80" z="0" width="8" height="112" color="DOR" />
+<brush x="112" y="80" z="0" width="8" height="112" color="DOR" />
+<brush x="0" y="112" z="0" width="32" height="32" color="DOR" />
+<brush x="56" y="112" z="0" width="48" height="32" color="DOR" />
+<brush x="128" y="112" z="0" width="32" height="32" color="DOR" />
+<brush x="24" y="144" z="0" width="8" height="48" color="DOR" />
+<brush x="56" y="144" z="0" width="8" height="48" color="DOR" />
+<brush x="96" y="144" z="0" width="8" height="48" color="DOR" />
+<brush x="128" y="144" z="0" width="8" height="48" color="DOR" />
+<brush x="0" y="176" z="0" width="16" height="16" color="DOR" />
+<brush x="72" y="176" z="0" width="16" height="16" color="DOR" />
+<brush x="144" y="176" z="0" width="16" height="16" color="DOR" />
+</room>
+
+<room name="orange2" group="orangemaze" bgcolor="GRY">
+
+<exit direction="north" room="orange1"/>
+<exit direction="west" room="leftpass"/>
+<exit direction="east" room="rightpass"/>
+
+<brush x="0" y="0" z="0" width="16" height="16" color="DOR" />
+<brush x="24" y="0" z="0" width="8" height="80" color="DOR" />
+<brush x="40" y="0" z="0" width="8" height="16" color="DOR" />
+<brush x="56" y="0" z="0" width="8" height="80" color="DOR" />
+<brush x="72" y="0" z="0" width="16" height="192" color="DOR" />
+<brush x="96" y="0" z="0" width="8" height="80" color="DOR" />
+<brush x="112" y="0" z="0" width="8" height="16" color="DOR" />
+<brush x="128" y="0" z="0" width="8" height="80" color="DOR" />
+<brush x="144" y="0" z="0" width="16" height="16" color="DOR" />
+<brush x="32" y="48" z="0" width="24" height="32" color="DOR" />
+<brush x="104" y="48" z="0" width="24" height="32" color="DOR" />
+<brush x="24" y="112" z="0" width="32" height="32" color="DOR" />
+<brush x="104" y="112" z="0" width="32" height="32" color="DOR" />
+<brush x="24" y="144" z="0" width="8" height="48" color="DOR" />
+<brush x="128" y="144" z="0" width="8" height="48" color="DOR" />
+<brush x="0" y="176" z="0" width="24" height="16" color="DOR" />
+<brush x="32" y="176" z="0" width="40" height="16" color="DOR" />
+<brush x="88" y="176" z="0" width="40" height="16" color="DOR" />
+<brush x="136" y="176" z="0" width="24" height="16" color="DOR" />
+</room>
+
+<room name="leftpass" group="orangemaze" bgcolor="GRY">
+
+<exit direction="east" room="orange2"/>
+<exit direction="south" room="blackpass"/>
+<exit direction="north" room="graypass"/>
+
+<brush x="0" y="0" z="0" width="64" height="16" color="DOR" />
+<brush x="96" y="0" z="0" width="64" height="16" color="DOR" />
+<brush x="0" y="16" z="0" width="8" height="176" color="DOR" />
+<brush x="8" y="176" z="0" width="56" height="16" color="DOR" />
+<brush x="96" y="176" z="0" width="64" height="16" color="DOR" />
+</room>
+
+<room name="rightpass" group="orangemaze" bgcolor="GRY">
+
+<exit direction="west" room="orange2"/>
+<exit direction="north" room="cyancastle"/>
+<exit direction="south" room="purplepass"/>
+
+<brush x="0" y="0" z="0" width="64" height="16" color="DOR" />
+<brush x="96" y="0" z="0" width="64" height="16" color="DOR" />
+<brush x="152" y="16" z="0" width="8" height="176" color="DOR" />
+<brush x="0" y="176" z="0" width="64" height="16" color="DOR" />
+<brush x="96" y="176" z="0" width="56" height="16" color="DOR" />
+</room>
+
+
+<room name="insidecyan" group="cyan_kingdom" bgcolor="GRY">
+
+<exit direction="north" room="redl0" />
+
+<brush x="0" y="0" z="0" width="64" height="16" color="CYN"/>
+<brush x="96" y="0" z="0" width="64" height="16" color="CYN"/>
+
+<brush x="0" y="16" z="0" width="8" height="160" color="CYN"/>
+<brush x="152" y="16" z="0" width="8" height="160" color="CYN"/>
+
+<brush x="0" y="176" z="0" width="160" height="16" color="CYN"/>
+
+</room>
+
+<room name="cyancastle" group="cyan_kingdom" bgcolor="GRY">
+
+<exit direction="south" room="rightpass"/>
+<exit brush="porticullis" room="redl1" x="78" y="176" />
+
+<brush x="0" y="0" z="0" width="44" height="16" color="CYN"/>
+<brush x="116" y="0" z="0" width="44" height="16" color="CYN"/>
+<brush x="48" y="0" z="0" width="4" height="16" color="CYN"/>
+<brush x="56" y="0" z="0" width="4" height="16" color="CYN"/>
+<brush x="64" y="0" z="0" width="4" height="16" color="CYN"/>
+<brush x="108" y="0" z="0" width="4" height="16" color="CYN"/>
+<brush x="100" y="0" z="0" width="4" height="16" color="CYN"/>
+<brush x="92" y="0" z="0" width="4" height="16" color="CYN"/>
+	
+<brush x="40" y="16" z="0" width="28" height="32" color="CYN"/>
+<brush x="92" y="16" z="0" width="28" height="32" color="CYN"/>
+<brush x="40" y="48" z="0" width="80" height="32" color="CYN"/>
+<brush x="48" y="80" z="0" width="64" height="32" color="CYN"/>
+<brush x="48" y="112" z="0" width="24" height="32" color="CYN"/>
+<brush x="88" y="112" z="0" width="24" height="32" color="CYN"/>
+
+<brush x="76" y="112" z="0" width="8" height="32" color="GRY" type="GATE" name="porticullis" unlocked="false" keyname="cyankey"/>
+
+<brush x="0" y="16" z="0" width="8" height="160" color="CYN"/>
+<brush x="152" y="16" z="0" width="8" height="160" color="CYN"/>
+
+<brush x="0" y="176" z="0" width="64" height="16" color="CYN"/>
+<brush x="96" y="176" z="0" width="64" height="16" color="CYN"/>
+
+</room>
+
+<room name="purplepass" group="orangemaze" bgcolor="GRY">
+
+<exit direction="north" room="rightpass"/>
+
+<brush x="0" y="0" z="0" width="64" height="16" color="PUR"/>
+<brush x="96" y="0" z="0" width="64" height="16" color="PUR"/>
+<brush x="0" y="16" z="0" width="8" height="160" color="PUR"/>
+<brush x="152" y="16" z="0" width="8" height="160" color="PUR"/>
+<brush x="0" y="176" z="0" width="160" height="16" color="PUR"/>
+
+</room>
+
+<room name="blackpass" group="orangemaze" bgcolor="GRY">
+
+<exit direction="north" room="leftpass"/>
+
+<brush x="0" y="0" z="0" width="64" height="16" color="BLK"/>
+<brush x="96" y="0" z="0" width="64" height="16" color="BLK"/>
+<brush x="0" y="16" z="0" width="8" height="160" color="BLK"/>
+<brush x="152" y="16" z="0" width="8" height="160" color="BLK"/>
+<brush x="0" y="176" z="0" width="160" height="16" color="BLK"/>
+
+</room>
+
+<room name="graypass" group="orangemaze" bgcolor="GRY">
+
+<exit direction="south" room="leftpass"/>
+
+<brush x="0" y="0" z="0" width="160" height="16" color="DKGY"/>
+<brush x="0" y="16" z="0" width="8" height="160" color="DKGY"/>
+<brush x="152" y="16" z="0" width="8" height="160" color="DKGY"/>
+<brush x="0" y="176" z="0" width="64" height="16" color="DKGY"/>
+<brush x="96" y="176" z="0" width="64" height="16" color="DKGY"/>
+
+</room>
+
+<room name="redl0" group="cyan_kingdom" bgcolor="GRY" >
+
+<exit direction="west" room="redl2"/>
+<exit direction="east" room="redl1"/>
+<exit direction="south" room="insidecyan"/>
+
+<brush x="0" y="0" z="0" width="160" height="16" color="RED" />
+<brush x="0" y="32" z="0" width="64" height="16" color="RED" />
+<brush x="96" y="32" z="0" width="64" height="16" color="RED" />
+<brush x="56" y="48" z="0" width="8" height="32" color="RED" />
+<brush x="96" y="48" z="0" width="8" height="32" color="RED" />
+<brush x="24" y="64" z="0" width="32" height="16" color="RED" />
+<brush x="64" y="64" z="0" width="32" height="16" color="RED" />
+<brush x="104" y="64" z="0" width="32" height="16" color="RED" />
+<brush x="24" y="80" z="0" width="8" height="48" color="RED" />
+<brush x="128" y="80" z="0" width="8" height="48" color="RED" />
+<brush x="0" y="96" z="0" width="24" height="32" color="RED" />
+<brush x="56" y="96" z="0" width="48" height="16" color="RED" />
+<brush x="136" y="96" z="0" width="24" height="32" color="RED" />
+<brush x="56" y="112" z="0" width="8" height="48" color="RED" />
+<brush x="96" y="112" z="0" width="8" height="48" color="RED" />
+<brush x="0" y="144" z="0" width="56" height="16" color="RED" />
+<brush x="104" y="144" z="0" width="56" height="16" color="RED" />
+<brush x="0" y="176" z="0" width="64" height="16" color="RED" />
+<brush x="96" y="176" z="0" width="64" height="16" color="RED" />
+</room>
+
+<room name="redl1" group="cyan_kingdom" bgcolor="GRY" >
+
+<exit direction="west" room="redl0"/>
+<exit direction="east" room="redl2"/>
+<exit brush="outside" room="cyancastle" x="78" y="144"/>
+
+<brush x="0" y="0" z="0" width="160" height="16" color="RED" />
+<brush x="0" y="32" z="0" width="32" height="16" color="RED" />
+<brush x="72" y="32" z="0" width="16" height="32" color="RED" />
+<brush x="128" y="32" z="0" width="32" height="16" color="RED" />
+<brush x="24" y="48" z="0" width="8" height="32" color="RED" />
+<brush x="48" y="48" z="0" width="24" height="16" color="RED" />
+<brush x="88" y="48" z="0" width="24" height="16" color="RED" />
+<brush x="128" y="48" z="0" width="8" height="32" color="RED" />
+<brush x="48" y="64" z="0" width="8" height="16" color="RED" />
+<brush x="104" y="64" z="0" width="8" height="16" color="RED" />
+<brush x="0" y="96" z="0" width="8" height="32" color="RED" />
+<brush x="152" y="96" z="0" width="8" height="32" color="RED" />
+<brush x="24" y="112" z="0" width="8" height="48" color="RED" />
+<brush x="48" y="112" z="0" width="8" height="80" color="RED" />
+<brush x="104" y="112" z="0" width="8" height="80" color="RED" />
+<brush x="128" y="112" z="0" width="8" height="48" color="RED" />
+<brush x="0" y="144" z="0" width="24" height="16" color="RED" />
+<brush x="136" y="144" z="0" width="24" height="16" color="RED" />
+<brush x="0" y="176" z="0" width="48" height="16" color="RED" />
+<brush x="56" y="176" z="0" width="8" height="16" color="RED" />
+
+<brush x="64" y="190" z="0" width="32" height="2" color="RED" drawn="false" name="outside"/>
+
+<brush x="96" y="176" z="0" width="8" height="16" color="RED" />
+<brush x="112" y="176" z="0" width="48" height="16" color="RED" />
+</room>
+
+<room name="redl2" group="cyan_kingdom" bgcolor="GRY" >
+
+<exit direction="west" room="redl1"/>
+<exit direction="east" room="redl0"/>
+
+<brush x="0" y="0" z="0" width="160" height="16" color="RED" />
+<brush x="24" y="16" z="0" width="8" height="144" color="RED" />
+<brush x="128" y="16" z="0" width="8" height="144" color="RED" />
+<brush x="0" y="32" z="0" width="8" height="16" color="RED" />
+<brush x="72" y="32" z="0" width="16" height="160" color="RED" />
+<brush x="152" y="32" z="0" width="8" height="16" color="RED" />
+<brush x="0" y="96" z="0" width="24" height="16" color="RED" />
+<brush x="64" y="96" z="0" width="8" height="96" color="RED" />
+<brush x="88" y="96" z="0" width="8" height="96" color="RED" />
+<brush x="136" y="96" z="0" width="24" height="16" color="RED" />
+<brush x="0" y="112" z="0" width="8" height="16" color="RED" />
+<brush x="152" y="112" z="0" width="8" height="16" color="RED" />
+<brush x="0" y="144" z="0" width="24" height="16" color="RED" />
+<brush x="136" y="144" z="0" width="24" height="16" color="RED" />
+<brush x="0" y="176" z="0" width="64" height="16" color="RED" />
+<brush x="96" y="176" z="0" width="64" height="16" color="RED" />
+</room>

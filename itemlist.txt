@@ -1,0 +1,45 @@
+<item name="yellowkey" type="key" room="insideblue" sprite="yellowkey" x="40" y="40" z="0"/>
+<item name="magnet" type="magnet" room="insideblue" sprite="magnet" x="100" y="40" z="0"/>
+<item name="sword" type="weapon" room="insideblue" sprite="sword" x="40" y="100" z="0"/>
+<item name="chalice" type="treasure" room="insideblue" sprite="chalice" x="100" y="100" z="0"/>
+<item name="broadsword" type="weapon" room="bluecastle" sprite="broadsword" x="100" y="120" z="0"/>
+<item name="bluekey" type="key" room="left" sprite="bluekey" x="40" y="40" z="0" />
+<item name="greenkey" type="key" room="left" sprite="greenkey" x="40" y="100" z="0" />
+<item name="graykey" type="key" room="left" sprite="graykey" x="100" y="40" z="0" />
+<item name="cavekey" type="key" room="left" sprite="cavekey" x="100" y="100" z="0" />
+<item name="cyankey" type="key" room="left" sprite="cyankey" x="120" y="120" z="0" />
+<item name="lamp" type="light" room="right" sprite="lamp" x="100" y="100" z="0" />
+<item name="scepter" type="magic" room="bottom" sprite="scepter" x="100" y="100" z="0" />
+<monster name="specter" type="ghost" room="pit3" sprite="specter" behavior="CHASE" speed="127" x="32" y="16" />
+<monster name="antenna" type="alien" room="right" sprite="antenna_alien" behavior="HOVER" speed="255" x="80" y="94" />
+<monster name="spider" type="animal" room="bottom" sprite="spider" behavior="WANDER" speed="127" x="80" y="94" />
+<item name="coin" type="treasure" room="purplepass" sprite="coin" x="80" y="98" z="0" />
+<item name="urn" type="treasure" room="bottom" sprite="urn" x="80" y="98" z="0" />
+<monster name="greendragon" type="dragon" room="purplepass" sprite="dragon" behavior="CHASE" speed="255" x="32" y="16" />
+<location room="redl2" x="139" y="118" z="0" monster="false" type="key" />
+<location room="redl1" x="35" y="22" z="0" monster="false" type="tool" />
+<location room="redl0" x="6" y="56" z="0" monster="false" type="tool" />
+<location room="insidecyan" x="20" y="124" z="0" monster="true" type="dragon" />
+<location room="purplepass" x="18" y="122" z="0" monster="true" type="dragon" />
+<location room="purplepass" x="18" y="40" z="0" monster="false" type="treasure" />
+<location room="graypass" x="20" y="32" z="0" monster="false" type="tool" />
+<location room="blackpass" x="20" y="142" z="0" monster="false" type="tool" />
+<location room="bluemaze2" x="44" y="82" z="0" monster="false" type="tool" />
+<location room="greencastle" x="12" y="60" z="0" monster="false" type="tool" />
+<location room="redmaze0" x="36" y="88" z="0" monster="false" type="tool" />
+<location room="redmaze3" x="52" y="88" z="0" monster="false" type="tool" />
+<location room="purpleroom" x="14" y="26" z="0" monster="false" type="tool" />
+<location room="purpleroom" x="80" y="80" z="0" monster="true" type="animal" />
+<location room="bottom" x="80" y="88" z="0" monster="true" type="animal" />
+<location room="insideblue" x="30" y="136" z="0" monster="false" type="tool" />
+<location room="bluecastle" x="17" y="86" z="0" monster="false" type="tool" />
+<location room="graycastle" x="15" y="86" z="0" monster="false" type="tool" />
+<location room="insidegray" x="16" y="30" z="0" monster="false" type="tool" />
+<location room="mount2" x="36" y="38" z="0" monster="false" type="tool" />
+<location room="mount4" x="106" y="130" z="0" monster="false" type="tool" />
+<location room="mounttop" x="97" y="50" z="0" monster="false" type="tool" />
+<location room="cave1" x="69" y="118" z="0" monster="false" type="tool" />
+<location room="cave1" x="82" y="4" z="0" monster="false" type="tool" />
+<location room="cave3" x="90" y="52" z="0" monster="false" type="tool" />
+
+

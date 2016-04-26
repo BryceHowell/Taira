@@ -1,0 +1,563 @@
+<colormap char=" " color="00000000"/>
+<colormap char="0" color="00000000"/>
+<colormap char="1" color="FF355F18"/>
+<colormap char="2" color="FFFF0000"/>
+<colormap char="w" color="FFFFFFFF"/>
+<colormap char="u" color="FF777777"/>
+<colormap char="r" color="FFFF0000"/>
+<colormap char="C" color="FF008080"/>
+
+<sprite name="dragon" doublescan="true" width="8" height="20">
+<image/>
+00000110
+00001111
+11110011
+11111110
+00001110
+00000100
+00000100
+00011110
+00111111
+01111111
+11100011
+11000011
+11000011
+11000111
+11111111
+00111100
+00001000
+10001111
+11100001
+00111111
+<image/>
+00000110
+00001111
+11110011
+11111110
+00001110
+00000100
+00000100
+00011110
+00111111
+01111111
+11100011
+11000011
+11000011
+11000111
+11111111
+00111100
+00001000
+10001111
+11100001
+00111111
+<image/>
+00000000
+00001100
+00001100
+00001100
+00001110
+00011011
+01111111
+11001110
+10000000
+11111100
+11111110
+11111110
+01111110
+01111000
+00100000
+01101110
+01000010
+01111110
+00000000
+00000000
+<image/>
+10000000
+01000000
+00100110 
+00011111
+00001011 
+00001110
+00011110
+00100100
+01000100
+10001110
+00011110 
+00111111
+01111111
+01111111
+00111110
+00011100
+00001000
+11111000
+10000000
+11100000	
+</sprite>
+<sprite name="cyankey" doublescan="true" width="8" height="3">
+<image/>
+CCC00000
+C0CCCCCC
+CCC00C0C
+<image/>
+CCC00000
+C0CCCCCC
+CCC00C0C
+</sprite>
+<colormap char="y" color="FFFCFC54"/>
+<sprite name="yellowkey" doublescan="true" width="8" height="3">
+<image/>
+yyy00000
+y0yyyyyy
+yyy00y0y
+<image/>
+yyy00000
+y0yyyyyy
+yyy00y0y
+</sprite>
+<colormap char="g" color="FF6E9C42"/>
+<sprite name="greenkey" doublescan="true" width="8" height="3">
+<image/>
+ggg00000
+g0gggggg
+ggg00g0g
+<image/>
+ggg00000
+g0gggggg
+ggg00g0g
+</sprite>
+<colormap char="b" color="FF2D6D98"/>
+<sprite name="bluekey" doublescan="true" width="8" height="3">
+<image/>
+bbb00000
+b0bbbbbb
+bbb00b0b
+<image/>
+bbb00000
+b0bbbbbb
+bbb00b0b
+</sprite>
+<colormap char="u" color="FF8E8E8E"/>
+<sprite name="graykey" doublescan="true" width="8" height="3">
+<image/>
+uuu00000
+u0uuuuuu
+uuu00u0u
+<image/>
+uuu00000
+u0uuuuuu
+uuu00u0u
+</sprite>
+<sprite name="cavekey" doublescan="true" width="10" height="3">
+<image/>
+uuu0000000
+u0uuuuuuuu
+uuu00u0u0u
+<image/>
+uuu0000000
+u0uuuuuuuu
+uuu00u0u0u
+</sprite>
+
+<colormap char="1" color="FF000000"/>
+<sprite name="magnet" doublescan="true" width="8" height="8">
+<image/>
+00111100
+01111110
+11100111
+11000011
+11000011
+11000011
+11000011
+11000011
+<image/>
+00111100
+01111110
+11100111
+11000011
+11000011
+11000011
+11000011
+11000011
+</sprite>
+<colormap char="3" color="FFFCFC54"/>
+<sprite name="sword" doublescan="true" width="12" height="5">
+<image/>
+003300000000
+003000000000
+333333333333
+003000000000
+003300000000
+<image/>
+003300000000
+003000000000
+333333333333
+003000000000
+003300000000
+</sprite>
+<colormap char="1" color="FFFFFFFF"/>
+<sprite name="chalice" doublescan="true" width="8" height="8">
+<image/>
+10000001
+11000011
+01111110
+01111110
+00111100
+00011000
+00011000
+01111110
+<image/>
+10000001
+11000011
+01111110
+01111110
+00111100
+00011000
+00011000
+01111110
+</sprite>
+<sprite name="ghost" doublescan="true" width="9" height="16">
+<image/>
+001111100
+001111100  
+011111110 
+011111110 
+1  111  1
+1  111  1
+1 1111 11
+1 1111 11
+111111111
+111111111
+111111111
+111111111
+111111111
+111111111
+1 1 1 1 1
+1 1 1 1 1
+<image/>
+  1111100
+  1111100  
+ 11111110 
+ 11111110 
+11 1111 1
+11 1111 1
+1  111  1
+1  111  1
+111111111
+111111111
+111111111
+111111111
+111111111
+111111111
+ 1 1 1 10 
+ 1 1 1 10 
+</sprite>
+<sprite name="broadsword-hrz" doublescan="true" width="15" height="6">
+<image/>
+  y           0 
+  y           0 
+yyyuuuuuuuuuuuu
+yyyuuuuuuuuuuuu
+  y           0 
+  y           0 
+<image/>
+            y 0 
+            y 0 
+uuuuuuuuuuuuyyy
+uuuuuuuuuuuuyyy
+            y 0 
+            y 0 
+</sprite>
+<sprite name="broadsword-vrt" doublescan="true" width="6" height="12">
+<image/>
+00uu00
+00uu00
+00uu00
+00uu00
+00uu00
+00uu00
+00uu00
+00uu00
+00uu00
+yyyyyy
+00yy00
+00yy00
+<image/>
+00yy00
+00yy00
+yyyyyy
+00uu00
+00uu00
+00uu00
+00uu00
+00uu00
+00uu00
+00uu00
+00uu00
+00uu00
+</sprite>
+<sprite name="broadsword" doublescan="true" width="15" height="6">
+<image/>
+  y           0 
+  y           0 
+yyyuuuuuuuuuuuu
+yyyuuuuuuuuuuuu
+  y           0 
+  y           0 
+<image/>
+  y           0 
+  y           0 
+yyyuuuuuuuuuuuu
+yyyuuuuuuuuuuuu
+  y           0 
+  y           0 
+</sprite>
+<colormap char="1" color="FFFCFC54"/>
+<sprite name="antenna_alien" doublescan="true" width="8" height="10">
+<image/>
+10000000       
+ 1    10 
+  1  1 1
+   11  1
+ 11111 0 
+ 1 1 110 
+ 1111110 
+ 1111110 
+ 1    10 
+11   110
+<image/>
+       1
+ 1    10 
+1 1  1 0 
+1  11  0
+  111110  
+ 11 1 11
+ 1111110 
+ 1111110 
+ 1    10 
+111  111
+<image/>
+       0
+ 0    00 
+0 0  0 0 
+0  00  0
+  111110  
+ 1111111
+ 1111110 
+ 1111110 
+ 0    00 
+000  000
+</sprite>
+<colormap char="1" color="FF000000"/>
+<sprite name="porticullis" doublescan="true" width="7" height="16">
+<image/>
+1111111
+1010101
+1111111
+1010101
+1111111
+1010101
+1111111
+1010101
+1111111
+1010101
+1111111
+1010101
+1111111
+1010101
+1111111
+1010101
+<image/>
+1111111
+1010101
+1111111
+1010101
+0000000
+0000000
+0000000
+0000000
+0000000
+0000000
+0000000
+0000000
+0000000
+0000000
+0000000
+0000000
+</sprite>
+<sprite name="specter" doublescan="true" width="9" height="8">
+<image/>
+0w0www000
+0ww0w0w00
+00wwwwww0
+00wwwww0w
+00wwwww00
+000wwww00
+00000ww00
+000000000
+<image/>
+000www0w0
+0ww0w0ww0
+w0wwwww00
+00wwwww00
+00wwwww00
+00wwww000
+0wwww0000
+www000000
+<image/>
+000000000
+000000000
+000000000
+000000000
+000000000
+000000000
+000000000
+000000000
+</sprite>
+<sprite name="lamp" doublescan="true" width="8" height="7">
+<image/>
+uuuuuuuu
+0uuuuuu0
+00uyyu00
+0uyyyyu0
+00uyyu00
+0uuuuuu0
+uuuuuuuu
+<image/>
+uuuuuuuu
+0uuuuuu0
+00uyyu00
+0uyyyyu0
+00uyyu00
+0uuuuuu0
+uuuuuuuu
+</sprite>
+<sprite name="scepter" doublescan="true" width="8" height="8">
+<image/>
+w00w0000
+0yw00000
+0wy0w000
+w00w0000
+00w0w000
+00000w00
+000000w0
+0000000w
+<image/>
+w00w0000
+0yw00000
+0wy0w000
+w00w0000
+00w0w000
+00000w00
+000000w0
+0000000w
+</sprite>
+<sprite name="spider" doublescan="true" width="8" height="8">
+<image/>
+r000000r
+0rr00rr0
+000rr000
+0rrrrrr0
+r00rr00r
+00r00r00
+00r00r00
+00r00r00
+<image/>
+0r0000r0
+0r0000r0
+00r00r00
+r00rr00r
+0rrrrrr0
+000rr000
+rrr00rrr
+00000000
+<image/>
+00000000
+00000000
+00r00r00
+000rr000
+00rrrr00
+000rr000
+00r00r00
+00000000
+</sprite>
+<colormap char="3" color="FF2D6D98"/>
+<sprite name="teth" doublescan="true" width="14" height="5">
+<image/>
+33303303330303
+03003000300303  
+03003300300333
+03003000300303
+03003300300303
+<image/>
+33303303330303
+03003000300303  
+03003300300333
+03003000300303
+03003300300303
+</sprite>
+<sprite name="code" doublescan="true" width="3" height="15">
+<image/>
+333
+300
+333
+000
+333
+303
+333
+000
+330
+303
+330
+000
+333
+330
+333
+<image/>
+333
+300
+333
+000
+333
+303
+333
+000
+330
+303
+330
+000
+333
+330
+333
+</sprite>
+<sprite name="coin" doublescan="true" width="5" height="3">
+<image/>
+0yyy0
+yyyyy
+0yyy0
+<image/>
+0yyy0
+yyyyy
+0yyy0
+</sprite>
+<sprite name="urn" doublescan="true" width="9" height="8">
+<image/>
+000111000
+001111100
+111111111
+101111101
+111111111
+001111100
+000111000
+001111100
+<image/>
+000111000
+001111100
+111111111
+101111101
+111111111
+001111100
+000111000
+001111100
+</sprite>
+
+
