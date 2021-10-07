@@ -1,27 +1,3 @@
-// learn to regex in Java-DONE
-
-// my cheap ass XML parser should accept a stream as input
-// should it buffer????
-// it needs to read and recognize tags then act on them
-// unmatched and bad tags/data should be recognized and perhaps signaled in STDERR(?)
-// good tags and data can either
-   // a) be reloaded into a tree data structure to be parsed yet AGAIN
-   // b) be loaded directly into world classes (this is not reusable since it becomes a parser only for this proj. )
-   // c) be handled via a class instance which provides the function members which handle data appropriately
-   // d) not be handled directly in this class (function members are do-nothings) but allow things to be done in a subclass
-   
-// remember, minimize the amount of work. you might actually want a real XML parser for this
-// however it might be nice to have a pseudo-XML parser that handles badly formed XML since I doubt 
-// good parsers are set up to half-accept badly formed XML tagged data without bailing out on the parse
-// and i'm sure many vendors still fuck up their data
-
-// fuck this. I say, build an event-driven XML parser.
-// events:
-// text string, with current tag stack included. should I handle entity codes as an additional step?
-// (optional) entity code handler or autoconvert table?
-// open tag event: adds to stack, allows handling by client. key value hash of tag values avail
-// node tag event: stack available, not modified. k-v hash of tag values avail
-// close tag event: closed tag, plus stack. obvious pop of tag from stack
 
 import java.awt.image.BufferedImage;
 import java.util.Stack;
