@@ -12,3 +12,5 @@ Make sure that labyrinth.txt, sprites.txt, and itemlist.txt are in the directory
 Use the arrow keys and the spacebar to move around and use the current object.
 The WASD keys let you select an object in the inventory display on the bottom of the screen. The current object is outlined by a cursor square.
 X will let you drop an object.
+The F1 key will reset the player in front of the home castle and rearrange objects within the game. F2 will reset the player to the front of the home castle, alive again.
+
